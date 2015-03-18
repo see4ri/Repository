@@ -106,4 +106,62 @@ To undo the last commited message
 --> $ git add test.txt
 --> $ git commit -m 'Added message 1'
 --> $ git commit --amend
- 
+
+To commit all the folder in a dir
+--> $ git add .
+
+To push the entire dir into remote git server
+--> create a account in git hub and create a repository with a name
+here I have created as "Repository"
+--> $ git add .
+--> $ git commit -m 'Initial version'
+--> $ git remote add origin https://github.com/rangaeeeee/Repository.git
+--> $ git push origin master
+
+To list the remote git
+--> $ git remote -v
+
+To pull data  from a remote repository and do not merge changes with the
+machine
+--> $ git fetch origin
+
+To pull data from a remote repository and merge with the folder in system
+--> $ git pull https://github.com/rangaeeeee/Repository.git
+
+To push a file from the system to a remote respository
+--> git add <file name>
+--> $ git add .gitignore
+--> $ git commit -m 'Added a new file .gitignore'
+--> $ git push https://github.com/rangaeeeee/Repository.git
+
+
+
+Repository
+https://github.com/rangaeeeee/Repository.git
+
+
+
+
+…or create a new repository on the command line
+
+echo "# Repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rangaeeeee/Repository.git
+git push -u origin master
+
+
+
+
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/rangaeeeee/Repository.git
+git push -u origin master
+
+
+
+
+
+
