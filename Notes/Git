@@ -1,0 +1,109 @@
+1. What is Git ?
+--> A version control tool.
+
+2. Three types of version control
+--> Local version control
+--> Centralized version control
+--> Distributed version control
+
+3. Files transition between three states in git
+--> Modified files - Files which are being recently changed.
+--> Staged files   - Files which are marked to be saved.
+--> Commited files - Files which have been saved.
+
+4. Basic commands for git 
+To configure a vim editor for git
+--> $ git config --global core.editor "vim"
+
+To see the changes made in git
+--> $ git config --list
+
+To get help 
+--> $ git help
+
+To get help on specific commands 
+--> git help <command>
+--> $ git help add
+
+To track a directory
+--> go to the directory which you want to track
+--> $ git init
+
+To add a specific file in a directory to track
+--> git add <File Name>
+--> $ git add test.txt
+
+To ignore a list of different file type or a file
+--> create a file named ".gitignore" inside the dir
+--> you can also go to website "https://github.com/github/gitignore" 
+to get the template for each type of projects
+
+To commit a file without opening an editor
+--> git commit -m <'Comments'>
+--> git commit -m 'Initial version of Project'
+
+To get the status of all the git files
+--> $ git status
+
+To see what has changed after modifying the file in the git repository
+--> $ git diff
+
+To stage a file
+--> modify the file which you wanted to stage
+--> git add <file name>
+--> $ git add test.txt
+
+To see the difference after the file has been staged and not commited
+--> $ git diff --cached
+
+To commit a file
+--> $ git commit
+
+To skip the staging and directly commit without opening the editor 
+during commit
+--> git commit -a -m <'commit message'>
+--> $ git commit -a -m 'Add few more commands'
+
+To remove a file from a git before commiting or in the staging area 
+--> git add <file name>
+--> git rm -f <file name>
+--> $ git add test.txt
+--> $ git rm -f test.txt
+ 
+To keep the file in the folder but delete from the staging area
+--> git add <file name>
+--> git rm --cached <file name>
+--> git add test.txt
+--> git rm --cached test.txt
+
+To commit a file and then rename it
+--> git add <file name>
+--> git commit -m <'comments'>
+--> git mv <source file> <destination file>
+--> $ git add test.txt
+--> $ git commit -m 'Initial project version'
+--> $ git mv test.txt test_new.txt
+
+To see log messages in reverse chronological order
+--> $ git log
+
+To see log messages in one line
+--> $ git log --pretty=oneline
+
+To see log message in formatted
+--> git log --pretty=format:"<short form of hash> <author> 
+                             <date of change> <change message>"
+--> $ git log --pretty=format:"%h : %an : %ar : %s"
+
+To see the last few commits
+--> git log -p -<Number of last commits>
+--> $ git log -p -2
+
+To undo the last commited message
+--> git add <file name>
+--> git commit -m '<comment>'
+--> git commit --amend
+--> $ git add test.txt
+--> $ git commit -m 'Added message 1'
+--> $ git commit --amend
+ 
