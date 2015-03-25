@@ -1,0 +1,21 @@
+1. Delete a line
+[ESC]
+dd
+
+2. To select a complete line
+[ESC] 
+[SHIFT] v
+
+3. To copy a line
+y
+
+4. To cut a line
+d
+
+5. paste before the cursor
+P
+
+6. paste after the cursor
+p
+
+7.

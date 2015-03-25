@@ -1,0 +1,4 @@
+1. How redirect the output to file
+$ program [arguments...] 2>&1 | tee outfile
+
+2. 
