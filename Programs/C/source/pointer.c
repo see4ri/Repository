@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
 char display(void) {
- printf(" Inside void function \n");
 } 
 int main() {
  int i = 50;
@@ -12,7 +9,6 @@ int main() {
  char (*ptrFunc)(void) = &display;
  
  arr[0] = 100;
- printf("Hello World \n");
 
  return 0;
 }
