@@ -1,0 +1,18 @@
+The four step in DHCP
+ 1. DHCP Discover
+ 2. DHCP Offer
+ 3. DHCP Request
+ 4. DHCP ACK
+ 
+ 
+---------------                             ---------------
+|DHCP Client  |                             | DHCP Server |
+---------------                             ---------------
+      |              DHCP Discover                 |
+      |   ---------------------------------->      |
+      |              DHCP Offer                    |
+      |   <---------------------------------       |
+      |              DHCP Request                  |
+      |   --------------------------------->       |
+			|				       DHCP ACK                      |
+      |   <----------------------------------      |							 
