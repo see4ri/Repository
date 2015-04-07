@@ -251,16 +251,42 @@ reverse order using recursion
 ########################################################
 GeeksforGeeks - Binary Tree
 ########################################################
+Binary Tree structure :
+struct node {
+ int data;
+ struct node *left;
+ struct node *right;
+};
+
+Create a binary tree node :
+struct node *newNode(int data) {
+ struct node *node = (struct node*) malloc (sizeof(struct node));
+ node->data = data;
+ node->left = NULL;
+ node->right = NULL;
+ return node;
+}
+
 1. Depth First Traversals:
 (a) Inorder
 (b) Preorder
 (c) Postorder
+
 
 (a) Inorder Traversal:
 Algorithm Inorder(tree)
    1. Traverse the left subtree, i.e., call Inorder(left-subtree)
    2. Visit the root.
    3. Traverse the right subtree, i.e., call Inorder(right-subtree)
+code :
+ void printInorder(struct node *node) {
+  if (node == NULL)
+  return;
+  
+  printInorder(node->left);
+  printf("%
+ }
+   
 
 (b) Preorder Traversal:
 Algorithm Preorder(tree)
