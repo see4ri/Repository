@@ -1,0 +1,229 @@
+**********************************************************
+                  PROCESSES
+**********************************************************
+1. Creating Process - fork and exec
+Code :
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+/* Spawn a child process running a new program. PROGRAM is the name
+of the program to run; the path will be searched for this program.
+ARG_LIST is a NULL-terminated list of character strings to be
+passed as the program’s argument list. Returns the process ID of
+the spawned process. */
+int spawn (char* program, char** arg_list)
+{
+pid_t child_pid;
+/* Duplicate this process. */
+child_pid = fork ();
+if (child_pid != 0)
+/* This is the parent process. */
+return child_pid;
+else {
+/* Now execute PROGRAM, searching for it in the path. */
+execvp (program, arg_list);
+/* The execvp function returns only if an error occurs. */
+fprintf (stderr, “an error occurred in execvp\n”);
+abort ();
+}
+}
+int main ()
+{
+/* The argument list to pass to the “ls” command. */
+char* arg_list[] = {
+“ls”, /* argv[0], the name of the program. */
+“-l”,
+“/”,
+NULL /* The argument list must end with a NULL. */
+};
+/* Spawn a child process running the “ls” command. Ignore the
+returned child process ID. */
+spawn (“ls”, arg_list);
+printf (“done with main program\n”);
+return 0;
+}
+---------------------------------------------------------
+2. Signals - signal handler
+Code :
+#include <signal.h>
+#include <stdio.h>
+#include <string.h>
+#include <sys/types.h>
+#include <unistd.h>
+sig_atomic_t sigusr1_count = 0;
+void handler (int signal_number)
+{
+++sigusr1_count;
+}
+int main ()
+{
+struct sigaction sa;
+memset (&sa, 0, sizeof (sa));
+sa.sa_handler = &handler;
+sigaction (SIGUSR1, &sa, NULL);
+/* Do some lengthy stuff here. */
+/* ... */
+printf (“SIGUSR1 was raised %d times\n”, sigusr1_count);
+return 0;
+}
+---------------------------------------------------------
+3. Process Termination - wait system call
+Code :
+int main ()
+{
+int child_status;
+/* The argument list to pass to the “ls” command. */
+char* arg_list[] = {
+“ls”, /* argv[0], the name of the program. */
+“-l”,
+“/”,
+NULL /* The argument list must end with a NULL. */
+};
+/* Spawn a child process running the “ls” command. Ignore the
+returned child process ID. */
+spawn (“ls”, arg_list);
+/* Wait for the child process to complete. */
+wait (&child_status);
+if (WIFEXITED (child_status))
+printf (“the child process exited normally, with exit code %d\n”,
+WEXITSTATUS (child_status));
+else
+printf (“the child process exited abnormally\n”);
+return 0;
+}
+---------------------------------------------------------
+4. Zombie Processes
+Code :
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+int main ()
+{
+pid_t child_pid;
+/* Create a child process. */
+child_pid = fork ();
+if (child_pid > 0) {
+/* This is the parent process. Sleep for a minute. */
+sleep (60);
+}
+else {
+/* This is the child process. Exit immediately. */
+exit (0);
+}
+return 0;
+}
+---------------------------------------------------------
+5. Cleaning up children by Handling SIGCHLD
+Code :
+#include <signal.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+sig_atomic_t child_exit_status;
+void clean_up_child_process (int signal_number)
+{
+/* Clean up the child process. */
+int status;
+wait (&status);
+/* Store its exit status in a global variable. */
+child_exit_status = status;
+}
+int main ()
+{
+/* Handle SIGCHLD by calling clean_up_child_process. */
+struct sigaction sigchld_action;
+memset (&sigchld_action, 0, sizeof (sigchld_action));
+sigchld_action.sa_handler = &clean_up_child_process;
+sigaction (SIGCHLD, &sigchld_action, NULL);
+/* Now do things, including forking a child process. */
+/* ... */
+return 0;
+}
+----------------------------------------------------------
+**********************************************************
+                        THREADS
+**********************************************************
+1. Create a thread
+Code :
+#include <pthread.h>
+#include <stdio.h>
+/* Prints x’s to stderr. The parameter is unused. Does not return. */
+void* print_xs (void* unused)
+{
+while (1)
+fputc (‘x’, stderr);
+return NULL;
+}
+/* The main program. */
+int main ()
+{
+pthread_t thread_id;
+/* Create a new thread. The new thread will run the print_xs
+function. */
+pthread_create (&thread_id, NULL, &print_xs, NULL);
+/* Print o’s continuously to stderr. */
+while (1)
+fputc (‘o’, stderr);
+return 0;
+}
+----------------------------------------------------------
+2. Create two threads
+Code :
+#include <pthread.h>
+#include <stdio.h>
+/* Parameters to print_function. */
+struct char_print_parms
+{
+/* The character to print. */
+char character;
+/* The number of times to print it. */
+int count;
+};
+/* Prints a number of characters to stderr, as given by PARAMETERS,
+which is a pointer to a struct char_print_parms. */
+void* char_print (void* parameters)
+{
+/* Cast the cookie pointer to the right type. */
+struct char_print_parms* p = (struct char_print_parms*) parameters;
+int i;
+for (i = 0; i < p->count; ++i)
+fputc (p->character, stderr);
+return NULL;
+}
+/* The main program. */
+int main ()
+{
+pthread_t thread1_id;
+pthread_t thread2_id;
+struct char_print_parms thread1_args;
+struct char_print_parms thread2_args;
+/* Create a new thread to print 30,000 ’x’s. */
+thread1_args.character = ’x’;
+thread1_args.count = 30000;
+pthread_create (&thread1_id, NULL, &char_print, &thread1_args);
+/* Create a new thread to print 20,000 o’s. */
+thread2_args.character = ’o’;
+thread2_args.count = 20000;
+pthread_create (&thread2_id, NULL, &char_print, &thread2_args);
+return 0;
+}
+----------------------------------------------------------
+3.  Joining threads
+int main ()
+{
+pthread_t thread1_id;
+pthread_t thread2_id;
+struct char_print_parms thread1_args;
+struct char_print_parms thread2_args;
+
+----------------------------------------------------------
+4. 
+----------------------------------------------------------
+----------------------------------------------------------
+----------------------------------------------------------
+----------------------------------------------------------
+**********************************************************
+
+**********************************************************
+
