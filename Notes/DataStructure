@@ -455,26 +455,15 @@ the mid element. So we recur for right half.
 
 A. Recursive C implementation of Binary Search
 Code :
-// A recursive binary search function. It returns location of x in
-// given array arr[l..r] is present, otherwise -1
 int binarySearch(int arr[], int l, int r, int x)
 {
    if (r >= l)
    {
         int mid = l + (r - l)/2;
- 
-        // If the element is present at the middle itself
         if (arr[mid] == x)  return mid;
- 
-        // If element is smaller than mid, then it can only be present
-        // in left subarray
         if (arr[mid] > x) return binarySearch(arr, l, mid-1, x);
- 
-        // Else the element can only be present in right subarray
         return binarySearch(arr, mid+1, r, x);
    }
- 
-   // We reach here when element is not present in array
    return -1;
 }
  
@@ -492,9 +481,6 @@ int main(void)
 B. Iterative C implementation of Binary Search.
 Code :
 #include <stdio.h>
- 
-// A iterative binary search function. It returns location of x in
-// given array arr[l..r] if present, otherwise -1
 int binarySearch(int arr[], int l, int r, int x)
 {
   while (l <= r)
@@ -524,11 +510,164 @@ int main(void)
 Time Complexity :  O(Logn)
 --------------------------------------------------------
 2. Selection Sort
+Algorithm :
+The selection sort algorithm sorts an array by repeatedly 
+finding the minimum element (considering ascending order) 
+from unsorted part and putting it at the beginning.
 
+Code :
+#include <stdio.h>
+ 
+void swap(int *xp, int *yp)
+{
+    int temp = *xp;
+    *xp = *yp;
+    *yp = temp;
+}
+
+void selectionSort(int arr[], int n)
+{
+    int i, j, min_idx;
+    
+    for (i = 0; i < n-1; i++)
+    {
+        min_idx = i;
+        for (j = i+1; j < n; j++)
+          if (arr[j] < arr[min_idx])
+            min_idx = j;
+            
+        swap(&arr[min_idx], &arr[i]);
+    }
+}
+
+void printArray(int arr[], int size)
+{
+    int i;
+    for (i=0; i < size; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+ 
+int main()
+{
+    int arr[] = {64, 25, 12, 22, 11};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    selectionSort(arr, n);
+    printf("Sorted array: \n");
+    printArray(arr, n);
+    return 0;
+}
+
+Time Complexity: O(n*n) as there are two nested loops.
+
+Auxiliary Space: O(1)
 --------------------------------------------------------
 3. Bubble Sort
+Algorithm :
+Bubble Sort is the simplest sorting algorithm that 
+works by repeatedly swapping the adjacent elements 
+if they are in wrong order.
+
+Code :
+#include <stdio.h>
+
+void swap(int *xp, int *yp)
+{
+    int temp = *xp;
+    *xp = *yp;
+    *yp = temp;
+}
+
+void bubbleSort(int arr[], int n)
+{
+   int i, j;
+   for (i = 0; i < n; i++)      
+       for (j = 0; j < n-i-1; j++) //Last i elements are already in place  
+           if (arr[j] > arr[j+1])
+              swap(&arr[j], &arr[j+1]);
+}
+
+/* Function to print an array */
+void printArray(int arr[], int size)
+{
+    int i;
+    for (i=0; i < size; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+
+int main()
+{
+    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    bubbleSort(arr, n);
+    printf("Sorted array: \n");
+    printArray(arr, n);
+    return 0;
+}
+
+Optimized Implementation:
+#include <stdio.h>
+
+void swap(int *xp, int *yp)
+{
+    int temp = *xp;
+    *xp = *yp;
+    *yp = temp;
+}
+
+void bubbleSort(int arr[], int n)
+{
+   int i, j;
+   bool swapped;
+   for (i = 0; i < n; i++)
+   {
+     swapped = false;
+     for (j = 0; j < n-i-1; j++)
+     {
+        if (arr[j] > arr[j+1])
+        {
+           swap(&arr[j], &arr[j+1]);
+           swapped = true;
+        }
+     }
+     if (swapped == false)
+        break;
+   }
+}
+
+void printArray(int arr[], int size)
+{
+    int i;
+    for (i=0; i < size; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+
+int main()
+{
+    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    bubbleSort(arr, n);
+    printf("Sorted array: \n");
+    printArray(arr, n);
+    return 0;
+}
+
+Time Complexity: O(n*n)
+
+Auxiliary Space: O(1)
+
+Boundary Cases: Bubble sort takes minimum time (Order of n)
+when elements are already sorted.
+
+Sorting In Place: Yes
+
+Stable: Yes
+
 --------------------------------------------------------
 4. Insertion Sort
+
 --------------------------------------------------------
 5. Merge Sort
 --------------------------------------------------------
