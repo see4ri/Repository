@@ -127,12 +127,33 @@ Generic pointer in c programming
 ###############################################################################
 NULL pointer in c programming 
 ###############################################################################
+1. NULL pointer:
+Literal meaning of NULL pointer is a pointer which is pointing to nothing. 
+NULL pointer points the base address of segment.
 
+2. What is meaning of NULL?
+NULL is macro constant which has been defined in the heard file stdio.h, 
+alloc.h, mem.h, stddef.h and stdlib.h as
+#define NULL 0
 
+3. size of NULL is size of the integer
+
+4. We cannot copy any thing in the NULL pointer.
+Code :
+char *str=NULL;
+strcpy(str,"c-pointer.blogspot.com");
+printf("%s",str);
+
+Output :
+NULL
 ###############################################################################
 Wild pointer in c programming language.
 ###############################################################################
+1. Wild pointer:
+A pointer in c which has not been initialized is known as wild pointer.
 
+2. Null pointer points the base address of segment while wild pointer 
+doesn’t point any specific memory location.
 
 ###############################################################################
 Dangling pointer problem in c programming 
