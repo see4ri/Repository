@@ -1,3 +1,4 @@
+//Recursive C implementation of Binary Search.
 #include <stdio.h>
  
 // A recursive binary search function. It returns location of x in
