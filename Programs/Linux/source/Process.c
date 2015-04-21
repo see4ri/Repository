@@ -40,6 +40,6 @@ int main() {
   else
   printf("The child process 02 exited abnormally");
   
- printf("End of Main Process\n")
+ printf("End of Main Process\n");
  return 0;
 }
