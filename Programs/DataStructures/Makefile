@@ -3,6 +3,8 @@
 CXXFLAGS = -Wall -g -c 
 SRC = source
 INC = include
+CXX = g++
+CC = $(CXX)
 
 all : LinkedList CircularLinkedList Queue DoublyLinkedList Stack BinaryTree BinarySearchTree Heap Hashing \
       Graph HelloWorld
@@ -53,4 +55,4 @@ HelloWorld.o : $(SRC)/HelloWorld.cpp
 
 .PHONY: clean
 clean : 
-	rm *.o  
+	rm -f *.o  HelloWorld Graph Hashing Heap BinarySearchTree BinaryTree Stack DoublyLinkedList Queue CircularLinkedList LinkedList
