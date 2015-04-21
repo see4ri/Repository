@@ -18,11 +18,28 @@ int spawn(char* program,char** arg_list)
 }
 
 int main() {
-
- char* arg_list[] = {"./Program01",NULL};
+ pid_t child_status;
+ char* arg_list1[] = {"./Program01",NULL};
+ char* arg_list2[] = {"./Program02",NULL};
  
  printf("This is the main process \n");
  printf("The process id of main process is %d\n",(int)getpid());
- spawn("./Program01",arg_list);
+ spawn("./Program01",arg_list1);
+ 
+ wait(&child_status);
+  if(WIFEXITED(child_status))
+   printf("The child process 01 exited normally with status id : %d\n",WEXITSTATUS(child_status));
+  else
+  printf("The child process 01 exited abnormally");
+  
+ spawn("./Program02",arg_list2);
+ 
+ wait(&child_status);
+  if(WIFEXITED(child_status))
+   printf("The child process 02 exited normally with status id : %d\n",WEXITSTATUS(child_status));
+  else
+  printf("The child process 02 exited abnormally");
+  
+ printf("End of Main Process\n")
  return 0;
 }
