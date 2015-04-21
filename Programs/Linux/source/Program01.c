@@ -14,7 +14,7 @@ void* func1(void* param)
 {
  struct threadData temp;
  
- temp = (threadData *)param;
+ temp = (struct threadData *)param;
  
  printf("Start Thread 1\n");
  
@@ -29,7 +29,7 @@ void* func2(void* param)
 {
  struct threadData temp;
  
- temp = (threadData *)param;
+ temp = (struct threadData *)param;
  
  printf("Start Thread 2\n");
  
@@ -44,7 +44,7 @@ void* func3(void* param)
 {
  struct threadData temp;
  
- temp = (threadData *)param;
+ temp = (struct threadData *)param;
  
  printf("Start Thread 3\n");
  
