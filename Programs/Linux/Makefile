@@ -2,6 +2,7 @@
 CXXFLAGS = -Wall -g -c 
 SRC = source
 INC = include
+CC = cc -pthread
 
 all : Program01 Program02 Process
 
@@ -20,4 +21,4 @@ Process.o : $(SRC)/Process.c include/Process.h
 
 .PHONY: clean
 clean : 
-	rm -f $(SRC)/*.o  Program01 Program02 Process
+	rm -f *.o  Program01 Program02 Process
