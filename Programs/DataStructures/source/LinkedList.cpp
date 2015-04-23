@@ -21,26 +21,64 @@ struct node *newNode(int data) {
 }
 
 /* Insert node at the front of the list */
-void insertNodeFront(struct node **Head) {
-
+void insertNodeFront(struct node **Head, int data) {
+ struct node *temp = newNode(data);
+ temp->next = (*Head);
+ (*Head) = temp;
 }
 
-
 /* Insert node at the last of the list */
-void insertNodeLast(struct node *Node) {
-
+void insertNodeLast(struct node *Node,int data) {
+ struct node *temp;
+ 
+ /* Error case */
+ if (Node == NULL)
+  return;
+ 
+ temp = newNode(data);
+ 
+ /* Move till the last */ 
+ while(Node->next != NULL) {
+  Node = Node->next;
+ }
+ 
+ Node->next = temp;
 }
 
 
 /* Insert node at the after a given position of the list */
-void insertNodeAfter(struct node *Node) {
-
+void insertNodeAfter(struct node *Node, int data) {
+ struct node *temp;
+ 
+ if(Node == NULL) 
+  return;
+ 
+ temp = newNode(data);
+ 
+ while(Node != NULL) {
+  if(Node->data == data) {
+   temp->next = Node->next;
+   Node->next = temp;
+  }
+ }
 }
 
-
-
+/* Print the linked list */
+void printList(struct node *head) {
+ if (head == NULL)
+  return;
+  
+ printf("The List : ");
+ while(head != NULL) {
+  printf("%d\t",head->data);
+  head = head->next;
+ }
+ printf("\n");
+}
 int main() {
  int choice;
+ struct node *head;
+ 
  do {
   printf("\n\n\n *************** Enter your choice *****************\n\n\n");
   printf("0. Exit \n");
@@ -68,6 +106,28 @@ int main() {
 
    /* Insert a node */
    case 1 :
+    do {
+     printf("a. Insert a node at start.\n");
+     printf("b. Insert a node after. \n");
+     printf("c. Insert a node at last. \n");
+     scanf("%c",&sub_choice);
+      switch(sub_choice){
+       case 'a' :
+       
+       break;
+       
+       case 'b' :
+       
+       break;
+       
+       case 'c' :
+       
+       break;
+       
+       default :
+       printf("Enter only the choice mention in the menu \n");
+      }
+    } while(sub_choice);
     break;
 
    /* Delete a node */
@@ -96,6 +156,7 @@ int main() {
    
    /* Print the list */
    case 8 : 
+   printList(head);
     break;
 
    /* List is palindrome ? */
