@@ -77,7 +77,8 @@ void printList(struct node *head) {
 }
 int main() {
  int choice;
- struct node *head;
+ struct node *head = NULL;
+ char sub_choice;
  
  do {
   printf("\n\n\n *************** Enter your choice *****************\n\n\n");
