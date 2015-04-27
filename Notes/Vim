@@ -1,3 +1,140 @@
+Important note
+# command mode
+*******************************************************************
+			Basic Editing
+*******************************************************************
+1. Inserting a text
+# i 
+
+2. Return to command mode
+Press Esc
+
+3. Moving around 
+After you return to command mode
+h(left), j(down), k(up), l(right)
+
+4. Delete a char
+# x
+
+5. Undo last delete 
+# u
+
+6. Undo the complete line
+# U
+
+7. Reverse the preceeding command
+# CTRL R
+
+8. To exit the vim
+# ZZ
+
+9. To quit from command mode
+:q
+
+10. To quit by force
+:q!
+
+11. Insert char at end of the line
+# a
+
+12. Delete a line
+# dd
+
+13. Opening up a new line
+# o
+
+14. Opening up a line above cursor
+# O
+
+15. vim help
+: help
+for any topic for help type
+: help <topic>
+
+*******************************************************************************
+2. Editing a little faster
+*******************************************************************************
+1. Word movement
+--> move the cursor forward by one word
+# w
+--> move one word backward
+# b
+
+2. Moving to the start and end of the line
+--> move cursor to the end of the line
+# $
+--> move cursor to the start of the line
+# ^
+
+3. Searching along a straight line
+--> forward search
+# f<letter>
+--> backward search
+# F<letter>
+
+4. Moving to a specific line
+# : <line number>
+
+5.Telling where you are in a file
+--> By setting the line number
+# :set number
+--> Unsetting the line number
+# :set nonumber
+--> Display a status line where you a in file
+# Ctrl + G
+
+6. Scrolling Up and Down 
+--> scroll up
+# Ctrl U
+--> scroll down
+# Ctrl D
+
+7. Deleting a text
+--> delete a line
+# dd
+--> delete a word
+# dw
+--> delete number of word from current position
+# d<number of word to delete>w 
+for example d3w deletes 3 words 
+--> delete from the cursor to the end of line
+# d$
+
+8. Changing the text
+
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+
+
+
+
+
+
+
+
+
 1. Delete a line
 [ESC]
 dd

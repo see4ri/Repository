@@ -3,22 +3,29 @@
 #include<unistd.h>
 #include<sys/types.h>
 #include<sys/wait.h>
+#include<sys/resource.h>
+
+int start_process = 1;
+int which = PRIO_PROCESS;
 
 int spawn(char* program,char** arg_list)
 {
  pid_t child_pid;
  child_pid = fork();
- 
- if(child_pid != 0)
-  return child_pid;
+
+ /* Parent Process */
+ if(child_pid != 0){
+     return child_pid;
+ }
  else {
+  /* Child Process */
   execvp(program,arg_list);
   fprintf(stderr,"an error occured in execvp\n");
   abort();
  } 
 }
 
-int main() {
+int main(int argc, char *argv[]) {
  pid_t child_status;
  char* arg_list1[] = {"./Program01",NULL};
  char* arg_list2[] = {"./Program02",NULL};
