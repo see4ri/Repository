@@ -1,4 +1,36 @@
 ********************************************************************
+SNMP - Simple Network Management Protocol
+********************************************************************
+--> SNMP
+- A protocol used to configure, monitor and receive alerts from
+ network managed devices.
+
+--> SNMP Manager
+- Can query managed devices for information, set specific parameters
+  on the managed devices, and receive notifications send by the 
+  managed devices.
+
+--> SNMP Agent
+- A managed devices that can be queried and have parameters set by
+  an SNMP Manager and can also send notifications of specific events
+  to an SNMP Manager.
+
+--> Management Information Base (MIB)
+ - A hierarchical database in a managed device containing variables
+   specific to that device, which can be provided to or configured 
+   from an SNMP Manager.
+   
+--> Object Identifier (OID)
+ - A component of a MIB containing a collection of variables, which 
+   can be queried by or configured from an SNMP manager.
+   
+--> TRAP Notification
+ - A notification send from an SNMP Agent to an SNMP Manager, which 
+   notifies the SNMP Manager about an event that occurred on the 
+   managed device.
+********************************************************************
+********************************************************************
+********************************************************************
 ********************************************************************
 ********************************************************************
 ********************************************************************
