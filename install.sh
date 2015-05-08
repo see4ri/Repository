@@ -20,19 +20,76 @@ sudo apt-get install vlc
 # git  
 sudo apt-get install git
 
-# terminator
-sudo apt-get install terminator
+#dock
+sudo add-apt-repository ppa:cairo-dock-team/ppa
+sudo apt-get update
+sudo apt-get install cairo-dock cairo-dock-plug-ins
 
-# file zilla
-sudo apt-get install filezilla
+#Screenlets
+sudo apt-get install screenlets
+sudo apt-get install screenlets-pack-all
 
-#Secret Maryo Chronicles - Adventure
-sudo apt-get install smc
+#Mumble
+sudo add-apt-repository ppa:mumble/release
+sudo apt-get update
+sudo apt-get install mumble
 
-#0 A.D. - Strategy
-sudo add-apt-repository ppa:wfg/0ad
-sudo apt-get update && sudo apt-get install 0ad
+#HexChat
+sudo add-apt-repository ppa:gwendal-lebihan-dev/hexchat-stable
+sudo apt-get update
+sudo apt-get install hexchat
 
+#Shotwell
+sudo add-apt-repository ppa:yorba/daily-builds
+sudo apt-get update
+sudo apt-get install shotwell 
+
+#HomeBank
+sudo add-apt-repository ppa:mdoyen/homebank
+sudo apt-get update
+sudo apt-get install homebank
+
+#Guake
+sudo add-apt-repository ppa:webupd8team/unstable
+sudo apt-get update
+sudo apt-get install guake
+
+#Telegram
+sudo add-apt-repository ppa:atareao/telegram
+sudo apt-get update
+sudo apt-get install telegram
+
+#Wine
+sudo add-apt-repository ppa:ubuntu-wine/ppa
+sudo apt-get update
+sudo apt-get install wine1.7 winetricks
+
+#Uget
+sudo apt-add-repository ppa:plushuang-tw/uget-stable
+sudo apt-get update
+sudo apt-get install uget aria2
+
+#Git
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+
+#BrightnessIndicator
+sudo add-apt-repository ppa:indicator-brightness/ppa
+sudo apt-get update
+sudo apt-get install indicator-brightness
+
+#DustRac
+sudo add-apt-repository ppa:jussi-lind/dustrac
+sudo apt-get update
+sudo apt-get install dustrac
+
+#SysMonitor
+sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
+sudo apt-get update
+sudo apt-get install indicator-sysmonitor
+
+#
 
 #skype
 #sudo apt-get install libqt4-dbus libqt4-network libqt4-xml libasound2
