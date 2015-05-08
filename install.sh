@@ -89,7 +89,66 @@ sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
 sudo apt-get update
 sudo apt-get install indicator-sysmonitor
 
-#
+#Battle for Wesnoth 1.13.0
+sudo apt-get install cmake
+wget sourceforge.net/projects/wesnoth/files/wesnoth-1.13/wesnoth-1.12/wesnoth-1.12.tar.bz2
+tar -xjvf wesnoth-1.13.tar.bz2
+cd wesnoth-1.13.0
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=release ..
+make
+sudo make install
+
+#PacketFence 
+sudo apt-get install gdebi
+wget http://www.packetfence.org/downloads/PacketFence/debian/pool/precise/p/packetfence/packetfence_5.0.0_all.deb
+sudo gdebi packetfence_5.0.0_all.deb
+
+#Pinta - Paint Application
+sudo add-apt-repository ppa:pinta-maintainers/pinta-stable
+sudo apt-get update
+sudo apt-get install pinta
+
+#Gimp - Alternative to Photoshop
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp
+sudo apt-get update
+sudo apt-get install gimp
+
+#Audacity
+sudo add-apt-repository ppa:audacity-team/daily
+sudo apt-get update
+sudo apt-get install audacity
+
+#Imagination - To turn picture into video slide
+sudo apt-get install imagination
+
+#KdenLive - To edit videos
+sudo add-apt-repository ppa:sunab/kdenlive-release
+sudo apt-get update
+sudo apt-get install kdenlive
+
+#Bombano - Software to write video files as dvd
+sudo add-apt-repository -y ppa:jacob/media
+sudo apt-get update; sudo apt-get install bombono-dvd
+
+#K3B - DVD burning utility
+sudo apt-get update
+sudo apt-get install k3b
+
+#Conky Manager - To edit desktop gadgets
+sudo add-apt-repository ppa:teejee2008/ppa
+sudo apt-get update
+sudo apt-get install conky-manager
+#sudo apt-get remove conky-manager
+
+#Simple Video Recorder - To screen capture and record as video
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+sudo apt-get update
+sudo apt-get install simplescreenrecorder
+
+
+
 
 #skype
 #sudo apt-get install libqt4-dbus libqt4-network libqt4-xml libasound2
