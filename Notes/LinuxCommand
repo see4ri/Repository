@@ -1,4 +1,10 @@
 1. How redirect the output to file
 $ program [arguments...] 2>&1 | tee outfile
 
-2. 
+2. How to create a root account in Ubuntu 14.04
+- login as root
+$ sudo su -
+
+- change the password of root
+$ passwd
+
