@@ -23,6 +23,7 @@ sudo apt-get install vlc
 sudo apt-get install git
 
 #dock
+
 echo -ne '\n' | sudo add-apt-repository ppa:cairo-dock-team/ppa
 echo -ne '\n' | sudo apt-get update
 echo -ne '\n' | sudo apt-get install cairo-dock cairo-dock-plug-ins
@@ -165,7 +166,6 @@ echo -ne '\n' | sudo apt-get install conky-manager
 echo -ne '\n' | sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
 echo -ne '\n' | sudo apt-get update
 echo -ne '\n' | sudo apt-get install simplescreenrecorder
-
 
 
 
