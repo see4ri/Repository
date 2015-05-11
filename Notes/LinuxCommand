@@ -12,3 +12,6 @@ $ passwd
 - open the file
 - press ESC
 - %s!^!< string name>
+
+4. How to install *.bundle file
+$ sudo sh *filename*.bundle
