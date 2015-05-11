@@ -8,3 +8,7 @@ $ sudo su -
 - change the password of root
 $ passwd
 
+3. How to replace a word in every line at the beginning in VI editor
+- open the file
+- press ESC
+- %s!^!< string name>
