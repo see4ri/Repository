@@ -903,89 +903,159 @@ mv zopfli ../../Android_Complete/platform/external/
 git clone https://android.googlesource.com/platform/external/zxing
 mv zxing ../../Android_Complete/platform/external/
 mkdir ../../Android_Complete/platform/frameworks/
-
+git clone https://android.googlesource.com/platform/frameworks/av
 mv av ../../Android_Complete/platform/frameworks/
+git clone https://android.googlesource.com/platform/frameworks/base
 mv base ../../Android_Complete/platform/frameworks/
 mkdir ../../Android_Complete/platform/frameworks/compile/
+git clone https://android.googlesource.com/platform/frameworks/compile/libbcc
 mv libbcc ../../Android_Complete/platform/frameworks/compile/
+git clone https://android.googlesource.com/platform/frameworks/compile/linkloader
 mv linkloader ../../Android_Complete/platform/frameworks/compile/
+git clone https://android.googlesource.com/platform/frameworks/compile/llvm-ndk-cc
 mv llvm-ndk-cc ../../Android_Complete/platform/frameworks/compile/
+git clone https://android.googlesource.com/platform/frameworks/compile/mclinker
 mv mclinker ../../Android_Complete/platform/frameworks/compile/
+git clone https://android.googlesource.com/platform/frameworks/compile/slang
 mv slang ../../Android_Complete/platform/frameworks/compile/
+git clone https://android.googlesource.com/platform/frameworks/ex
 mv ex ../../Android_Complete/platform/frameworks/
 mkdir ../../Android_Complete/platform/frameworks/media/
+git clone https://android.googlesource.com/platform/frameworks/media/libvideoeditor
 mv libvideoeditor ../../Android_Complete/platform/frameworks/media/
+git clone https://android.googlesource.com/platform/frameworks/mff
 mv mff ../../Android_Complete/platform/frameworks/
+git clone https://android.googlesource.com/platform/frameworks/minikin
 mv minikin ../../Android_Complete/platform/frameworks/
+git clone https://android.googlesource.com/platform/frameworks/ml
 mv ml ../../Android_Complete/platform/frameworks/
+git clone https://android.googlesource.com/platform/frameworks/multidex
 mv multidex ../../Android_Complete/platform/frameworks/
+git clone https://android.googlesource.com/platform/frameworks/native
 mv native ../../Android_Complete/platform/frameworks/
 mkdir ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/bitmap
 mv bitmap ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/bluetooth
 mv bluetooth ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/calendar
 mv calendar ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/carddav
 mv carddav ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/chips
 mv chips ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/colorpicker
 mv colorpicker ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/datetimepicker
 mv datetimepicker ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/emoji
 mv emoji ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/inputconnectioncommon
 mv inputconnectioncommon ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/inputmethodcommon
 mv inputmethodcommon ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/mailcommon
 mv mailcommon ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/mms
 mv mms ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/net/ethernet
 mkdir ../../Android_Complete/platform/frameworks/opt/net/
 mv ethernet ../../Android_Complete/platform/frameworks/opt/net/
+git clone https://android.googlesource.com/platform/frameworks/opt/net/ims
 mv ims ../../Android_Complete/platform/frameworks/opt/net/
+git clone https://android.googlesource.com/platform/frameworks/opt/net/voip
 mv voip ../../Android_Complete/platform/frameworks/opt/net/
+git clone https://android.googlesource.com/platform/frameworks/opt/net/wifi
 mv wifi ../../Android_Complete/platform/frameworks/opt/net/
+git clone https://android.googlesource.com/platform/frameworks/opt/photoviewer
 mv photoviewer ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/setupwizard
 mv setupwizard ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/telephony
 mv telephony ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/timezonepicker
 mv timezonepicker ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/vcard
 mv vcard ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/opt/widget
 mv widget ../../Android_Complete/platform/frameworks/opt/
+git clone https://android.googlesource.com/platform/frameworks/policies/base
 mkdir ../../Android_Complete/platform/frameworks/policies/
 mv base ../../Android_Complete/platform/frameworks/policies/
+git clone https://android.googlesource.com/platform/frameworks/rs
 mv rs ../../Android_Complete/platform/frameworks/
+git clone https://android.googlesource.com/platform/frameworks/support
 mv support ../../Android_Complete/platform/frameworks/
+git clone https://android.googlesource.com/platform/frameworks/testing	
 mv testing ../../Android_Complete/platform/frameworks/
+git clone https://android.googlesource.com/platform/frameworks/uiautomator	
 mv uiautomator ../../Android_Complete/platform/frameworks/
+git clone https://android.googlesource.com/platform/frameworks/volley	
 mv volley ../../Android_Complete/platform/frameworks/
+git clone https://android.googlesource.com/platform/frameworks/webview	
 mv webview ../../Android_Complete/platform/frameworks/
+git clone https://android.googlesource.com/platform/frameworks/wilhelm	
 mv wilhelm ../../Android_Complete/platform/frameworks/
+git clone https://android.googlesource.com/platform/gdk	
 mv gdk ../../Android_Complete/platform/
+git clone https://android.googlesource.com/platform/hardware/akm	
 mkdir ../../Android_Complete/platform/hardware/
 mv akm ../../Android_Complete/platform/hardware/
 mkdir ../../Android_Complete/platform/hardware/broadcom/
+git clone https://android.googlesource.com/platform/hardware/broadcom/libbt
 mv libbt ../../Android_Complete/platform/hardware/broadcom/
+git clone https://android.googlesource.com/platform/hardware/broadcom/wlan
 mv wlan ../../Android_Complete/platform/hardware/broadcom/
+git clone https://android.googlesource.com/platform/hardware/google
 mv google ../../Android_Complete/platform/hardware/
 mkdir ../../Android_Complete/platform/hardware/intel/
+git clone https://android.googlesource.com/platform/hardware/intel/audio_media
 mv audio_media ../../Android_Complete/platform/hardware/intel/
+git clone https://android.googlesource.com/platform/hardware/intel/bootstub
 mv bootstub ../../Android_Complete/platform/hardware/intel/
 mkdir ../../Android_Complete/platform/hardware/intel/common/
+git clone https://android.googlesource.com/platform/hardware/intel/common/bd_prov	
 mv bd_prov ../../Android_Complete/platform/hardware/intel/common/
+git clone https://android.googlesource.com/platform/hardware/intel/common/libmix	
 mv libmix ../../Android_Complete/platform/hardware/intel/common/
+git clone https://android.googlesource.com/platform/hardware/intel/common/libstagefrighthw	
 mv libstagefrighthw ../../Android_Complete/platform/hardware/intel/common/
+git clone https://android.googlesource.com/platform/hardware/intel/common/libva	
 mv libva ../../Android_Complete/platform/hardware/intel/common/
+git clone https://android.googlesource.com/platform/hardware/intel/common/libwsbm	
 mv libwsbm ../../Android_Complete/platform/hardware/intel/common/
+git clone https://android.googlesource.com/platform/hardware/intel/common/omx-components	
 mv omx-components ../../Android_Complete/platform/hardware/intel/common/
+git clone https://android.googlesource.com/platform/hardware/intel/common/utils	
 mv utils ../../Android_Complete/platform/hardware/intel/common/
+git clone https://android.googlesource.com/platform/hardware/intel/common/wrs_omxil_core	
 mv wrs_omxil_core ../../Android_Complete/platform/hardware/intel/common/
 mkdir ../../Android_Complete/platform/hardware/intel/img/
+git clone https://android.googlesource.com/platform/hardware/intel/img/hwcomposer	
 mv hwcomposer ../../Android_Complete/platform/hardware/intel/img/
+git clone https://android.googlesource.com/platform/hardware/intel/img/libdrm	
 mv libdrm ../../Android_Complete/platform/hardware/intel/img/
+git clone https://android.googlesource.com/platform/hardware/intel/img/psb_headers	
 mv psb_headers ../../Android_Complete/platform/hardware/intel/img/
+git clone https://android.googlesource.com/platform/hardware/intel/img/psb_video	
 mv psb_video ../../Android_Complete/platform/hardware/intel/img/
+git clone https://android.googlesource.com/platform/hardware/invensense	
 mv invensense ../../Android_Complete/platform/hardware/
+git clone https://android.googlesource.com/platform/hardware/libhardware
 mv libhardware ../../Android_Complete/platform/hardware/
+git clone https://android.googlesource.com/platform/hardware/libhardware_legacy	
 mv libhardware_legacy ../../Android_Complete/platform/hardware/
+git clone https://android.googlesource.com/platform/hardware/msm7k
 mv msm7k ../../Android_Complete/platform/hardware/
 mkdir ../../Android_Complete/platform/hardware/nvidia/
+git clone https://android.googlesource.com/platform/hardware/nvidia/audio	
 mv audio ../../Android_Complete/platform/hardware/nvidia/
+git clone https://android.googlesource.com/platform/hardware/nvidia/tegra124	
 mv tegra124 ../../Android_Complete/platform/hardware/nvidia/
 mkdir ../../Android_Complete/platform/hardware/qcom/
+git clone https://android.googlesource.com/platform/hardware/qcom/audio	
 mv audio ../../Android_Complete/platform/hardware/qcom/
+
 mv bt ../../Android_Complete/platform/hardware/qcom/
 mv camera ../../Android_Complete/platform/hardware/qcom/
 mv display ../../Android_Complete/platform/hardware/qcom/
