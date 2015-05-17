@@ -187,69 +187,122 @@ git clone https://android.googlesource.com/platform/bootable/recovery
 mv recovery ../../Android_Complete/platform/bootable/
 git clone https://android.googlesource.com/platform/build
 mv build ../../Android_Complete/platform/
-
+git clone https://android.googlesource.com/platform/build/blueprint
 mv blueprint ../../Android_Complete/platform/build/
+git clone https://android.googlesource.com/platform/build/soong
 mv soong ../../Android_Complete/platform/build/
+git clone https://android.googlesource.com/platform/cts
 mv cts ../../Android_Complete/platform/
+git clone https://android.googlesource.com/platform/dalvik
 mv dalvik ../../Android_Complete/platform/
+git clone https://android.googlesource.com/platform/dalvik2
 mv dalvik2 ../../Android_Complete/platform/
+git clone https://android.googlesource.com/platform/dalvik-snapshot
 mv dalvik-snapshot ../../Android_Complete/platform/
 mkdir ../../Android_Complete/platform/developers/
+git clone https://android.googlesource.com/platform/developers/build
 mv build ../../Android_Complete/platform/developers/
+git clone https://android.googlesource.com/platform/developers/demos
 mv demos ../../Android_Complete/platform/developers/
+git clone https://android.googlesource.com/platform/developers/docs
 mv docs ../../Android_Complete/platform/developers/
 mkdir ../../Android_Complete/platform/developers/samples/
+git clone https://android.googlesource.com/platform/developers/samples/android
 mv android ../../Android_Complete/platform/developers/samples/
+git clone https://android.googlesource.com/platform/development
 mv development ../../Android_Complete/platform/
 mkdir ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/aac
 mv aac ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/actionbarsherlock
 mv actionbarsherlock ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/aes
 mv aes ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/alac
 mv alac ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/android-clat
 mv android-clat ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/android-mock
 mv android-mock ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/ant-glob	
 mv ant-glob ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/antlr
 mv antlr ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/apache-apr
 mv apache-apr ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/apache-apr-util
 mv apache-apr-util ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/apache-harmony
 mv apache-harmony ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/apache-http
 mv apache-http ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/apache-log4cxx
 mv apache-log4cxx ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/apache-qp
 mv apache-qp ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/apache-xml
 mv apache-xml ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/apple-coreaudiosamples
 mv apple-coreaudiosamples ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/arduino
 mv arduino ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/arduino-ide
 mv arduino-ide ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/astl
 mv astl ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/bison
 mv bison ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/blktrace
 mv blktrace ../../Android_Complete/platform/external/
 mkdir ../../Android_Complete/platform/external/bluetooth/
+git clone https://android.googlesource.com/platform/external/bluetooth/bluedroid
 mv bluedroid ../../Android_Complete/platform/external/bluetooth/
+git clone https://android.googlesource.com/platform/external/bluetooth/bluez
 mv bluez ../../Android_Complete/platform/external/bluetooth/
+git clone https://android.googlesource.com/platform/external/bluetooth/glib
 mv glib ../../Android_Complete/platform/external/bluetooth/
+git clone https://android.googlesource.com/platform/external/bluetooth/hcidump
 mv hcidump ../../Android_Complete/platform/external/bluetooth/
+git clone https://android.googlesource.com/platform/external/bluez
 mv bluez ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/boost
 mv boost ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/boringssl
 mv boringssl ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/bouncycastle
 mv bouncycastle ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/bsdiff
 mv bsdiff ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/bzip2
 mv bzip2 ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/cblas
 mv cblas ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/ceres-solver
 mv ceres-solver ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/checkpolicy
 mv checkpolicy ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/cherry
 mv cherry ../../Android_Complete/platform/external/
-mv chromium ../../Android_Complete/platform/external/	
+git clone https://android.googlesource.com/platform/external/chromium
+mv chromium ../../Android_Complete/platform/external/
+git clone https://android.googlesource.com/platform/external/chromium_org
 mv chromium_org ../../Android_Complete/platform/external/
 mkdir ../../Android_Complete/platform/external/chromium_org/sdch/
+git clone https://android.googlesource.com/platform/external/chromium_org/sdch/open-vcdiff
 mv open-vcdiff ../../Android_Complete/platform/external/chromium_org/sdch/
 mkdir ../../Android_Complete/platform/external/chromium_org/testing/
+git clone https://android.googlesource.com/platform/external/chromium_org/testing/gtest
 mv gtest ../../Android_Complete/platform/external/chromium_org/testing/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/angle
 mv angle ../../Android_Complete/platform/external/chromium_org/third_party/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/angle_dx11
 mv angle_dx11 ../../Android_Complete/platform/external/chromium_org/third_party/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/boringssl/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/boringssl/src
 mv src ../../Android_Complete/platform/external/chromium_org/third_party/boringssl/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/brotli/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/brotli/src
 mv src ../../Android_Complete/platform/external/chromium_org/third_party/brotli/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/
@@ -259,15 +312,21 @@ mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille
 mv braille ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/freetype	
 mv freetype ../../Android_Complete/platform/external/chromium_org/third_party/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/icu
 mv icu ../../Android_Complete/platform/external/chromium_org/third_party/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/leveldatabase/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/leveldatabase/src
 mv src ../../Android_Complete/platform/external/chromium_org/third_party/leveldatabase/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libaddressinput/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/libaddressinput/src
 mv src ../../Android_Complete/platform/external/chromium_org/third_party/libaddressinput/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libjingle/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libjingle/source/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/libjingle/source/talk
 mv talk ../../Android_Complete/platform/external/chromium_org/third_party/libjingle/source/
 mv libjpeg_turbo ../../Android_Complete/platform/external/chromium_org/third_party/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libphonenumber/
