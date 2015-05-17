@@ -1306,236 +1306,412 @@ git clone https://android.googlesource.com/platform/packages/wallpapers/NoiseFie
 mv NoiseField ../../Android_Complete/platform/packages/wallpapers/
 git clone https://android.googlesource.com/platform/packages/wallpapers/PhaseBeam	
 mv PhaseBeam ../../Android_Complete/platform/packages/wallpapers/
-
+git clone https://android.googlesource.com/platform/pdk	
 mv pdk ../../Android_Complete/platform/
+git clone https://android.googlesource.com/platform/prebuilt	
 mv prebuilt ../../Android_Complete/platform/
 mkdir ../../Android_Complete/platform/prebuilts/
+git clone https://android.googlesource.com/platform/prebuilts/android-emulator	
 mv android-emulator ../../Android_Complete/platform/prebuilts/
+git clone https://android.googlesource.com/platform/prebuilts/android-emulator-build/archive	
 mv archive ../../Android_Complete/platform/prebuilts/android-emulator-build/
+git clone https://android.googlesource.com/platform/prebuilts/android-emulator-build/mesa	
 mv mesa ../../Android_Complete/platform/prebuilts/android-emulator-build/
+git clone https://android.googlesource.com/platform/prebuilts/android-emulator-build/mesa-deps	
 mv mesa-deps ../../Android_Complete/platform/prebuilts/android-emulator-build/
+git clone https://android.googlesource.com/platform/prebuilts/android-emulator-build/qemu-android-deps	
 mv qemu-android-deps ../../Android_Complete/platform/prebuilts/android-emulator-build/
 mkdir ../../Android_Complete/platform/prebuilts/clang/
 mkdir ../../Android_Complete/platform/prebuilts/clang/darwin-x86/
+git clone https://android.googlesource.com/platform/prebuilts/clang/darwin-x86/3.1	
 mv 3.1 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/
+git clone https://android.googlesource.com/platform/prebuilts/clang/darwin-x86/3.2	
 mv 3.2 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/
 mkdir ../../Android_Complete/platform/prebuilts/clang/darwin-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/clang/darwin-x86/arm/3.3	
 mv 3.3 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/arm/
 mkdir ../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/clang/darwin-x86/host/3.3	
 mv 3.3 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/clang/darwin-x86/host/3.4	
 mv 3.4 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/clang/darwin-x86/host/3.5	
 mv 3.5 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/clang/darwin-x86/host/3.6	
 mv 3.6 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/
 mkdir ../../Android_Complete/platform/prebuilts/clang/darwin-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/clang/darwin-x86/mips/3.3	
 mv 3.3 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/mips/
 mkdir ../../Android_Complete/platform/prebuilts/clang/darwin-x86/sdk/
+git clone https://android.googlesource.com/platform/prebuilts/clang/darwin-x86/sdk/3.5	
 mv 3.5 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/sdk/
 mkdir ../../Android_Complete/platform/prebuilts/clang/darwin-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/clang/darwin-x86/x86/3.3	
 mv 3.3 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/x86/
 mkdir ../../Android_Complete/platform/prebuilts/clang/linux-x86/
+git clone https://android.googlesource.com/platform/prebuilts/clang/linux-x86/3.1	
 mv 3.1 ../../Android_Complete/platform/prebuilts/clang/linux-x86/
+git clone https://android.googlesource.com/platform/prebuilts/clang/linux-x86/3.2	
 mv 3.2 ../../Android_Complete/platform/prebuilts/clang/linux-x86/
 mkdir ../../Android_Complete/platform/prebuilts/clang/linux-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/clang/linux-x86/arm/3.3	
 mv 3.3 ../../Android_Complete/platform/prebuilts/clang/linux-x86/arm/
 mkdir ../../Android_Complete/platform/prebuilts/clang/linux-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/clang/linux-x86/host/3.3	
 mv 3.3 ../../Android_Complete/platform/prebuilts/clang/linux-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/clang/linux-x86/host/3.4	
 mv 3.4 ../../Android_Complete/platform/prebuilts/clang/linux-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/clang/linux-x86/host/3.5	
 mv 3.5 ../../Android_Complete/platform/prebuilts/clang/linux-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/clang/linux-x86/host/3.6	
 mv 3.6 ../../Android_Complete/platform/prebuilts/clang/linux-x86/host/
 mkdir ../../Android_Complete/platform/prebuilts/clang/linux-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/clang/linux-x86/mips/3.3	
 mv 3.3 ../../Android_Complete/platform/prebuilts/clang/linux-x86/mips/
 mkdir ../../Android_Complete/platform/prebuilts/clang/linux-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/clang/linux-x86/x86/3.3	
 mv 3.3 ../../Android_Complete/platform/prebuilts/clang/linux-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/devtools	
 mv devtools ../../Android_Complete/platform/prebuilts/
+git clone https://android.googlesource.com/platform/prebuilts/eclipse	
 mv eclipse ../../Android_Complete/platform/prebuilts/
+git clone https://android.googlesource.com/platform/prebuilts/eclipse-build-deps	
 mv eclipse-build-deps ../../Android_Complete/platform/prebuilts/
+git clone https://android.googlesource.com/platform/prebuilts/eclipse-build-deps-sources	
 mv eclipse-build-deps-sources ../../Android_Complete/platform/prebuilts/
 mkdir ../../Android_Complete/platform/prebuilts/fullsdk
 mkdir ../../Android_Complete/platform/prebuilts/fullsdk/build-tools/
+git clone https://android.googlesource.com/platform/prebuilts/fullsdk/build-tools/22-darwin	
 mv 22-darwin ../../Android_Complete/platform/prebuilts/fullsdk/build-tools/
+git clone https://android.googlesource.com/platform/prebuilts/fullsdk/build-tools/22-linux	
 mv 22-linux ../../Android_Complete/platform/prebuilts/fullsdk/build-tools/
+git clone https://android.googlesource.com/platform/prebuilts/fullsdk/build-tools/22-windows	
 mv 22-windows ../../Android_Complete/platform/prebuilts/fullsdk/build-tools/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/aarch64/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8	
 mv aarch64-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/aarch64/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9	
 mv aarch64-linux-android-4.9 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/aarch64/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6	
 mv arm-eabi-4.6 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7	
 mv arm-eabi-4.7 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8	
 mv arm-eabi-4.8 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6	
 mv arm-linux-androideabi-4.6 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7	
 mv arm-linux-androideabi-4.7 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8	
 mv arm-linux-androideabi-4.8 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9	
 mv arm-linux-androideabi-4.9 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/host/headers	
 mv headers ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1	
 mv i686-apple-darwin-4.2.1 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/host/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8	
 mv mips64el-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9	
 mv mips64el-linux-android-4.9 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3
 mv mipsel-linux-android-4.4.3 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6	
 mv mipsel-linux-android-4.6 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7	
 mv mipsel-linux-android-4.7 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8	
 mv mipsel-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3	
 mv i686-android-linux-4.4.3 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.6	
 mv i686-android-linux-4.6 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6	
 mv i686-linux-android-4.6 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7	
 mv i686-linux-android-4.7 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7	
 mv x86_64-linux-android-4.7 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8	
 mv x86_64-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9	
 mv x86_64-linux-android-4.9 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/linux-x86/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/linux-x86/aarch64/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8	
 mv aarch64-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/aarch64/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9	
 mv aarch64-linux-android-4.9 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/aarch64/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6	
 mv arm-eabi-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7	
 mv arm-eabi-4.7 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8	
 mv arm-eabi-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6	
 mv arm-linux-androideabi-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7	
 mv arm-linux-androideabi-4.7 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8	
 mv arm-linux-androideabi-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9	
 mv arm-linux-androideabi-4.9 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3	
 mv i686-linux-glibc2.7-4.4.3 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6	
 mv i686-linux-glibc2.7-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6	
 mv x86_64-linux-glibc2.11-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8	
 mv x86_64-linux-glibc2.11-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8	
 mv x86_64-linux-glibc2.15-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6	
 mv x86_64-linux-glibc2.7-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8	
 mv x86_64-w64-mingw32-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8	
 mv mips64el-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9	
 mv mips64el-linux-android-4.9 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3
 mv mipsel-linux-android-4.4.3 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6	
 mv mipsel-linux-android-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7	
 mv mipsel-linux-android-4.7 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8	
 mv mipsel-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
 mkdir ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3	
 mv i686-android-linux-4.4.3 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.6	
 mv i686-android-linux-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6	
 mv i686-linux-android-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7	
 mv i686-linux-android-4.7 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7	
 mv x86_64-linux-android-4.7 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8	
 mv x86_64-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9	
 mv x86_64-linux-android-4.9 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
 mkdir ../../Android_Complete/platform/prebuilts/go/
+git clone https://android.googlesource.com/platform/prebuilts/go/darwin-x86	
 mv darwin-x86 ../../Android_Complete/platform/prebuilts/go/
+git clone https://android.googlesource.com/platform/prebuilts/go/linux-x86	
 mv linux-x86 ../../Android_Complete/platform/prebuilts/go/
+git clone https://android.googlesource.com/platform/prebuilts/go/windows-x86	
 mv windows-x86 ../../Android_Complete/platform/prebuilts/go/
+git clone https://android.googlesource.com/platform/prebuilts/gradle-plugin	
 mv gradle-plugin ../../Android_Complete/platform/prebuilts/
 mkdir ../../Android_Complete/platform/prebuilts/libs/
+git clone https://android.googlesource.com/platform/prebuilts/libs/libedit	
 mv libedit ../../Android_Complete/platform/prebuilts/libs/
 mkdir ../../Android_Complete/platform/prebuilts/maven_repo/
+git clone https://android.googlesource.com/platform/prebuilts/maven_repo/android	
 mv android ../../Android_Complete/platform/prebuilts/maven_repo/
+git clone https://android.googlesource.com/platform/prebuilts/misc
 mv misc ../../Android_Complete/platform/prebuilts/
+git clone https://android.googlesource.com/platform/prebuilts/ndk	
 mv ndk ../../Android_Complete/platform/prebuilts/
 mkdir ../../Android_Complete/platform/prebuilts/ninja/
+git clone https://android.googlesource.com/platform/prebuilts/ninja/darwin-x86	
 mv darwin-x86 ../../Android_Complete/platform/prebuilts/ninja/
+git clone https://android.googlesource.com/platform/prebuilts/ninja/linux-x86	
 mv linux-x86 ../../Android_Complete/platform/prebuilts/ninja/
 mkdir ../../Android_Complete/platform/prebuilts/python/
 mkdir ../../Android_Complete/platform/prebuilts/python/darwin-x86/
+git clone https://android.googlesource.com/platform/prebuilts/python/darwin-x86/2.7.5	
 mv 2.7.5 ../../Android_Complete/platform/prebuilts/python/darwin-x86/
 mkdir ../../Android_Complete/platform/prebuilts/python/linux-x86/
+git clone https://android.googlesource.com/platform/prebuilts/python/linux-x86/2.7.5	
 mv 2.7.5 ../../Android_Complete/platform/prebuilts/python/linux-x86/
+git clone https://android.googlesource.com/platform/prebuilts/qemu-kernel	
 mv qemu-kernel ../../Android_Complete/platform/prebuilts/
+git clone https://android.googlesource.com/platform/prebuilts/runtime	
 mv runtime ../../Android_Complete/platform/prebuilts/
+git clone https://android.googlesource.com/platform/prebuilts/sdk	
 mv sdk ../../Android_Complete/platform/prebuilts/
+git clone https://android.googlesource.com/platform/prebuilts/tools	
 mv tools ../../Android_Complete/platform/prebuilts/
+git clone https://android.googlesource.com/platform/sdk	
 mv sdk ../../Android_Complete/platform/
 mkdir ../../Android_Complete/platform/system/
+git clone https://android.googlesource.com/platform/system/bluetooth	
 mv bluetooth ../../Android_Complete/platform/system/
+git clone https://android.googlesource.com/platform/system/bt	
 mv bt ../../Android_Complete/platform/system/
+git clone https://android.googlesource.com/platform/system/core	
 mv core ../../Android_Complete/platform/system/
+git clone https://android.googlesource.com/platform/system/extras	
 mv extras ../../Android_Complete/platform/system/
+git clone https://android.googlesource.com/platform/system/gatekeeper	
 mv gatekeeper ../../Android_Complete/platform/system/
+git clone https://android.googlesource.com/platform/system/keyguard	
 mv keyguard ../../Android_Complete/platform/system/
+git clone https://android.googlesource.com/platform/system/keymaster	
 mv keymaster ../../Android_Complete/platform/system/
+git clone https://android.googlesource.com/platform/system/media	
 mv media ../../Android_Complete/platform/system/
+git clone https://android.googlesource.com/platform/system/netd	
 mv netd ../../Android_Complete/platform/system/
+git clone https://android.googlesource.com/platform/system/security	
 mv security ../../Android_Complete/platform/system/
+git clone https://android.googlesource.com/platform/system/vold	
 mv vold ../../Android_Complete/platform/system/
 mkdir ../../Android_Complete/platform/system/wlan/
+git clone https://android.googlesource.com/platform/system/wlan/ti	
 mv ti ../../Android_Complete/platform/system/wlan/
 mkdir ../../Android_Complete/platform/tools/
 mkdir ../../Android_Complete/platform/tools/adt/
+git clone https://android.googlesource.com/platform/tools/adt/eclipse	
 mv eclipse ../../Android_Complete/platform/tools/adt/
+git clone https://android.googlesource.com/platform/tools/adt/idea	
 mv idea ../../Android_Complete/platform/tools/adt/
+git clone https://android.googlesource.com/platform/tools/base	
 mv base ../../Android_Complete/platform/tools/
+git clone https://android.googlesource.com/platform/tools/build	
 mv build ../../Android_Complete/platform/tools/
+git clone https://android.googlesource.com/platform/tools/buildSrc	
 mv buildSrc ../../Android_Complete/platform/tools/
+git clone https://android.googlesource.com/platform/tools/emulator	
 mv emulator ../../Android_Complete/platform/tools/
 mkdir ../../Android_Complete/platform/tools/external/
+git clone https://android.googlesource.com/platform/tools/external/fat32lib	
 mv fat32lib ../../Android_Complete/platform/tools/external/
 mkdir ../../Android_Complete/platform/tools/external/go/
 mkdir ../../Android_Complete/platform/tools/external/go/src
 mkdir ../../Android_Complete/platform/tools/external/go/src/github.com/
 mkdir ../../Android_Complete/platform/tools/external/go/src/github.com/go-gl/
+git clone https://android.googlesource.com/platform/tools/external/go/src/github.com/go-gl/glfw	
 mv glfw ../../Android_Complete/platform/tools/external/go/src/github.com/go-gl/
 mkdir ../../Android_Complete/platform/tools/external/go/src/github.com/go-gl-legacy/
+git clone https://android.googlesource.com/platform/tools/external/go/src/github.com/go-gl-legacy/gl	
 mv gl ../../Android_Complete/platform/tools/external/go/src/github.com/go-gl-legacy/
 mkdir ../../Android_Complete/platform/tools/external/go/src/github.com/golang/
+git clone https://android.googlesource.com/platform/tools/external/go/src/github.com/golang/protobuf	
 mv protobuf ../../Android_Complete/platform/tools/external/go/src/github.com/golang/
 mkdir ../../Android_Complete/platform/tools/external/go/src/golang.org/
 mkdir ../../Android_Complete/platform/tools/external/go/src/golang.org/x/
+git clone https://android.googlesource.com/platform/tools/external/go/src/golang.org/x/net	
 mv net ../../Android_Complete/platform/tools/external/go/src/golang.org/x/
+git clone https://android.googlesource.com/platform/tools/external/go/src/golang.org/x/tools	
 mv tools ../../Android_Complete/platform/tools/external/go/src/golang.org/x/
+git clone https://android.googlesource.com/platform/tools/external/gradle	
 mv gradle ../../Android_Complete/platform/tools/external/
+git clone https://android.googlesource.com/platform/tools/gpu	
 mv gpu ../../Android_Complete/platform/tools/
+git clone https://android.googlesource.com/platform/tools/gradle	
 mv gradle ../../Android_Complete/platform/tools/
+git clone https://android.googlesource.com/platform/tools/idea	
 mv idea ../../Android_Complete/platform/tools/
+git clone https://android.googlesource.com/platform/tools/loganalysis	
 mv loganalysis ../../Android_Complete/platform/tools/
+git clone https://android.googlesource.com/platform/tools/motodev	
 mv motodev ../../Android_Complete/platform/tools/
 mkdir ../../Android_Complete/platform/tools/studio/
+git clone https://android.googlesource.com/platform/tools/studio/cloud	
 mv cloud ../../Android_Complete/platform/tools/studio/
 mkdir ../../Android_Complete/platform/tools/studio/google/
 mkdir ../../Android_Complete/platform/tools/studio/google/cloud/
+git clone https://android.googlesource.com/platform/tools/studio/google/cloud/testing	
 mv testing ../../Android_Complete/platform/tools/studio/google/cloud/
+git clone https://android.googlesource.com/platform/tools/studio/google/cloud/tools	
 mv tools ../../Android_Complete/platform/tools/studio/google/cloud/
+git clone https://android.googlesource.com/platform/tools/studio/google/login	
 mv login ../../Android_Complete/platform/tools/studio/google/
+git clone https://android.googlesource.com/platform/tools/studio/google/play	
 mv play ../../Android_Complete/platform/tools/studio/google/
+git clone https://android.googlesource.com/platform/tools/studio/translation	
 mv translation ../../Android_Complete/platform/tools/studio/
+git clone https://android.googlesource.com/platform/tools/swt	
 mv swt ../../Android_Complete/platform/tools/
+git clone https://android.googlesource.com/platform/tools/tradefederation	
 mv tradefederation ../../Android_Complete/platform/tools/
 mkdir ../../Android_Complete/platform/vendor/
 mkdir ../../Android_Complete/platform/vendor/htc/
+git clone https://android.googlesource.com/platform/vendor/htc/dream-open	
 mv dream-open ../../Android_Complete/platform/vendor/htc/
+git clone https://android.googlesource.com/platform/vendor/invensense	
 mv invensense ../../Android_Complete/platform/vendor/
+git clone https://android.googlesource.com/platform/vendor/sample	
 mv sample ../../Android_Complete/platform/vendor/
+git clone https://android.googlesource.com/Platform-Chromium-Projects	
 mv Platform-Chromium-Projects ../../Android_Complete/
+git clone https://android.googlesource.com/Platform-Projects	
 mv Platform-Projects ../../Android_Complete/
+git clone https://android.googlesource.com/Platform-Unrestricted-Projects	
 mv Platform-Unrestricted-Projects ../../Android_Complete/
+git clone https://android.googlesource.com/Public-Projects	
 mv Public-Projects ../../Android_Complete/
 mkdir ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/avr-libc	
 mv avr-libc ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/benchmark	
 mv benchmark ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/binutils	
 mv binutils ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/build	
 mv build ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/ccache	
 mv ccache ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/clang	
 mv clang ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/cloog	
 mv cloog ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/compiler-rt	
 mv compiler-rt ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/expat	
 mv expat ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/gcc	
 mv gcc ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/gdb	
 mv gdb ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/gmp	
 mv gmp ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/gold	
 mv gold ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/isl	
 mv isl ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/jack	
 mv jack ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/jill	
 mv jill ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/llvm	
 mv llvm ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/manifest	
 mv manifest ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/mclinker	
 mv mclinker ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/mpc	
 mv mpc ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/mpfr	
 mv mpfr ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/perl	
 mv perl ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/polly	
 mv polly ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/ppl	
 mv ppl ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/python	
 mv python ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/valgrind	
 mv valgrind ../../Android_Complete/toolchain/
+git clone https://android.googlesource.com/toolchain/yasm	
 mv yasm ../../Android_Complete/toolchain/
 mkdir ../../Android_Complete/tools/
+git clone https://android.googlesource.com/tools/aospstats	
 mv aospstats ../../Android_Complete/tools/
+git clone https://android.googlesource.com/tools/repo
 mv repo ../../Android_Complete/tools/
