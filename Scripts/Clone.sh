@@ -78,67 +78,116 @@ git clone https://android.googlesource.com/device/htc/flounder
 mv flounder ../../Android_Complete/device/htc/
 git clone https://android.googlesource.com/device/htc/flounder-kernel
 mv flounder-kernel ../../Android_Complete/device/htc/
+git clone https://android.googlesource.com/device/htc/passion
 mv passion ../../Android_Complete/device/htc/
+git clone https://android.googlesource.com/device/htc/passion-common
 mv passion-common ../../Android_Complete/device/htc/
+git clone https://android.googlesource.com/device/htc/sapphire
 mv sapphire ../../Android_Complete/device/htc/
 mkdir ../../Android_Complete/device/lge/
+git clone https://android.googlesource.com/device/lge/hammerhead
 mv hammerhead ../../Android_Complete/device/lge/
+git clone https://android.googlesource.com/device/lge/hammerhead-kernel
 mv hammerhead-kernel ../../Android_Complete/device/lge/
+git clone https://android.googlesource.com/device/lge/mako
 mv mako ../../Android_Complete/device/lge/
+git clone https://android.googlesource.com/device/lge/mako-kernel
 mv mako-kernel ../../Android_Complete/device/lge/
 mkdir ../../Android_Complete/device/moto/
+git clone https://android.googlesource.com/device/moto/common
 mv common ../../Android_Complete/device/moto/
+git clone https://android.googlesource.com/device/moto/shamu
 mv shamu ../../Android_Complete/device/moto/
+git clone https://android.googlesource.com/device/moto/shamu-kernel
 mv shamu-kernel ../../Android_Complete/device/moto/
+git clone https://android.googlesource.com/device/moto/stingray
 mv stingray ../../Android_Complete/device/moto/
+git clone https://android.googlesource.com/device/moto/wingray
 mv wingray ../../Android_Complete/device/moto/
+git clone https://android.googlesource.com/device/sample
 mv sample ../../Android_Complete/device/
 mkdir ../../Android_Complete/device/samsung_slsi/
+git clone https://android.googlesource.com/device/samsung_slsi/arndale
 mv arndale ../../Android_Complete/device/samsung_slsi/
 mkdir ../../Android_Complete/device/samsung/
+git clone https://android.googlesource.com/device/samsung/crespo
 mv crespo ../../Android_Complete/device/samsung/
+git clone https://android.googlesource.com/a.k.a.
 mv a.k.a ../../Android_Complete/
+git clone https://android.googlesource.com/device/samsung/crespo4g
 mv crespo4g ../../Android_Complete/device/samsung/
+git clone https://android.googlesource.com/device/samsung/maguro
 mv maguro ../../Android_Complete/device/samsung/
+git clone https://android.googlesource.com/device/samsung/manta	
 mv manta ../../Android_Complete/device/samsung/
+git clone https://android.googlesource.com/device/samsung/toro
 mv toro ../../Android_Complete/device/samsung/
+git clone https://android.googlesource.com/device/samsung/toroplus
 mv toroplus ../../Android_Complete/device/samsung/
+git clone https://android.googlesource.com/Galaxy
 mv Galaxy ../../Android_Complete/ 
+git clone https://android.googlesource.com/device/samsung/torospr
 mv torospr ../../Android_Complete/device/samsung/
+git clone https://android.googlesource.com/device/samsung/tuna
 mv tuna ../../Android_Complete/device/samsung/
 mkdir ../../Android_Complete/device/sony/
+git clone https://android.googlesource.com/device/sony/lt26
 mv lt26 ../../Android_Complete/device/sony/
 mkdir ../../Android_Complete/device/ti/
 mkdir ../../Android_Complete/device/ti/bootloader/
+git clone https://android.googlesource.com/device/ti/bootloader/uboot
 mv uboot ../../Android_Complete/device/ti/bootloader/
+git clone https://android.googlesource.com/device/ti/panda
 mv panda ../../Android_Complete/device/ti/
 mkdir ../../Android_Complete/kernel/
-mv bcm ../../Android_Complete/kernel/	
-mv common ../../Android_Complete/kernel/	
+git clone https://android.googlesource.com/kernel/bcm
+mv bcm ../../Android_Complete/kernel/
+git clone https://android.googlesource.com/kernel/common
+mv common ../../Android_Complete/kernel/
+git clone https://android.googlesource.com/kernel/exynos
 mv exynos ../../Android_Complete/kernel/
+git clone https://android.googlesource.com/kernel/goldfish
 mv goldfish ../../Android_Complete/kernel/
+git clone https://android.googlesource.com/kernel/lk
 mv lk ../../Android_Complete/kernel/
+git clone https://android.googlesource.com/kernel/mediatek
 mv mediatek ../../Android_Complete/kernel/
+git clone https://android.googlesource.com/kernel/msm
 mv msm ../../Android_Complete/kernel/
+git clone https://android.googlesource.com/kernel/omap
 mv omap ../../Android_Complete/kernel/
+git clone https://android.googlesource.com/kernel/samsung
 mv samsung ../../Android_Complete/kernel/
+git clone https://android.googlesource.com/kernel/tegra
 mv tegra ../../Android_Complete/kernel/
+git clone https://android.googlesource.com/kernel/x86_64
 mv x86_64 ../../Android_Complete/kernel/
+git clone https://android.googlesource.com/Kernel-Projects
 mv Kernel-Projects ../../Android_Complete/
 mkdir ../../Android_Complete/mirror/
+git clone https://android.googlesource.com/mirror/manifest
 mv manifest ../../Android_Complete/mirror/
+git clone https://android.googlesource.com/hosted
 mv hosted ../../Android_Complete/
 mkdir ../../Android_Complete/platform/
 mkdir ../../Android_Complete/platform/abi
+git clone https://android.googlesource.com/platform/abi/cpp
 mv cpp ../../Android_Complete/platform/abi/
+git clone https://android.googlesource.com/platform/art
 mv art ../../Android_Complete/platform/
+git clone https://android.googlesource.com/platform/bionic
 mv bionic ../../Android_Complete/platform/
 mkdir ../../Android_Complete/platform/bootable/
 mkdir ../../Android_Complete/platform/bootable/bootloader/
+git clone https://android.googlesource.com/platform/bootable/bootloader/legacy
 mv legacy ../../Android_Complete/platform/bootable/bootloader/
+git clone https://android.googlesource.com/platform/bootable/diskinstaller
 mv diskinstaller ../../Android_Complete/platform/bootable/
+git clone https://android.googlesource.com/platform/bootable/recovery
 mv recovery ../../Android_Complete/platform/bootable/
+git clone https://android.googlesource.com/platform/build
 mv build ../../Android_Complete/platform/
+
 mv blueprint ../../Android_Complete/platform/build/
 mv soong ../../Android_Complete/platform/build/
 mv cts ../../Android_Complete/platform/
