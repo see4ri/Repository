@@ -328,28 +328,44 @@ mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libjingl
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libjingle/source/
 git clone https://android.googlesource.com/platform/external/chromium_org/third_party/libjingle/source/talk
 mv talk ../../Android_Complete/platform/external/chromium_org/third_party/libjingle/source/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/libjpeg_turbo
 mv libjpeg_turbo ../../Android_Complete/platform/external/chromium_org/third_party/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libphonenumber/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libphonenumber/src/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers
 mv phonenumbers ../../Android_Complete/platform/external/chromium_org/third_party/libphonenumber/src/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/libphonenumber/src/resources
 mv resources ../../Android_Complete/platform/external/chromium_org/third_party/libphonenumber/src/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/libsrtp
 mv libsrtp ../../Android_Complete/platform/external/chromium_org/third_party/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/libvpx
 mv libvpx ../../Android_Complete/platform/external/chromium_org/third_party/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/libyuv
 mv libyuv ../../Android_Complete/platform/external/chromium_org/third_party/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/mesa/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/mesa/src
 mv src ../../Android_Complete/platform/external/chromium_org/third_party/mesa/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/openmax_dl
 mv openmax_dl ../../Android_Complete/platform/external/chromium_org/third_party/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/openssl
 mv openssl ../../Android_Complete/platform/external/chromium_org/third_party/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/opus/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/opus/src
 mv src ../../Android_Complete/platform/external/chromium_org/third_party/opus/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/ots
 mv ots ../../Android_Complete/platform/external/chromium_org/third_party/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/sfntly/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/sfntly/cpp/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/sfntly/cpp/src
 mv src ../../Android_Complete/platform/external/chromium_org/third_party/sfntly/cpp/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/skia
 mv skia ../../Android_Complete/platform/external/chromium_org/third_party/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/skia/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/skia/gyp
 mv gyp ../../Android_Complete/platform/external/chromium_org/third_party/skia/
+git clone https://android.googlesource.com/platform/external/chromium_org/third_party/skia/include
 mv include ../../Android_Complete/platform/external/chromium_org/third_party/skia/
+
 mv src ../../Android_Complete/platform/external/chromium_org/third_party/skia/
 mkdir ../../Android_Complete/platform/external/chromium_org/third_party/smhasher/
 mv src ../../Android_Complete/platform/external/chromium_org/third_party/smhasher/
