@@ -51,782 +51,901 @@ mv qemu ../../Android_Complete/device/generic/
 mv x86 ../../Android_Complete/device/generic/
 #git clone https://android.googlesource.com/device/generic/x86_64
 mv x86_64 ../../Android_Complete/device/generic/
-../../Android_Complete/device/google/accessory/adk2012	
-../../Android_Complete/device/google/accessory/adk2012_demo
-../../Android_Complete/device/google/accessory/arduino	
-../../Android_Complete/device/google/accessory/demokit
-../../Android_Complete/device/google/atv
-../../Android_Complete/device/google/debugcable
-../../Android_Complete/device/google/phantasm	
-../../Android_Complete/device/htc/common
-../../Android_Complete/device/htc/dream
-../../Android_Complete/device/htc/dream-sapphire	
-../../Android_Complete/device/htc/flounder	
-../../Android_Complete/device/htc/flounder-kernel	
-../../Android_Complete/device/htc/passion	
-../../Android_Complete/device/htc/passion-common
-../../Android_Complete/device/htc/sapphire
-../../Android_Complete/device/lge/hammerhead	
-../../Android_Complete/device/lge/hammerhead-kernel	
-../../Android_Complete/device/lge/mako	
-../../Android_Complete/device/lge/mako-kernel	
-../../Android_Complete/device/moto/common	
-../../Android_Complete/device/moto/shamu	
-../../Android_Complete/device/moto/shamu-kernel	
-../../Android_Complete/device/moto/stingray	
-../../Android_Complete/device/moto/wingray	
-../../Android_Complete/device/sample	
-../../Android_Complete/device/samsung_slsi/arndale	
-../../Android_Complete/device/samsung/crespo	
-../../Android_Complete/a.k.a. 
-../../Android_Complete/device/samsung/crespo4g	
-../../Android_Complete/a.k.a. 
-../../Android_Complete/device/samsung/maguro	
-../../Android_Complete/device/samsung/manta	
-../../Android_Complete/device/samsung/toro	
-../../Android_Complete/device/samsung/toroplus	
-../../Android_Complete/Galaxy 
-../../Android_Complete/device/samsung/torospr	
-../../Android_Complete/device/samsung/tuna	
-../../Android_Complete/device/sony/lt26	
-../../Android_Complete/device/ti/bootloader/uboot	
-../../Android_Complete/device/ti/panda	
-../../Android_Complete/kernel/bcm	
-../../Android_Complete/kernel/common	
-../../Android_Complete/kernel/exynos	
-../../Android_Complete/kernel/goldfish	
-../../Android_Complete/kernel/lk	
-../../Android_Complete/kernel/mediatek	
-../../Android_Complete/kernel/msm	
-../../Android_Complete/kernel/omap	
-../../Android_Complete/kernel/samsung	
-../../Android_Complete/kernel/tegra	
-../../Android_Complete/kernel/x86_64	
-../../Android_Complete/Kernel-Projects	
-../../Android_Complete/mirror/manifest	
-../../Android_Complete/hosted 
-../../Android_Complete/platform/abi/cpp	
-../../Android_Complete/platform/art	
-../../Android_Complete/platform/bionic	
-../../Android_Complete/platform/bootable/bootloader/legacy	#bootloader reference code
-../../Android_Complete/platform/bootable/diskinstaller	
-../../Android_Complete/platform/bootable/recovery	
-../../Android_Complete/platform/build	#build system
-../../Android_Complete/platform/build/blueprint	
-../../Android_Complete/platform/build/soong	
-../../Android_Complete/platform/cts	#Compatibility Test Suite
-../../Android_Complete/platform/dalvik	#Dalvik virtual machine and core libraries
-../../Android_Complete/platform/dalvik2	
-../../Android_Complete/platform/dalvik-snapshot	
-../../Android_Complete/platform/developers/build	
-../../Android_Complete/platform/developers/demos	
-../../Android_Complete/platform/developers/docs	
-../../Android_Complete/platform/developers/samples/android	
-../../Android_Complete/platform/development	#Platform engineering tools, sample code
-../../Android_Complete/platform/docs/source.android.com	#Source files for the
-../../Android_Complete/platform/external/aac	
-../../Android_Complete/platform/external/actionbarsherlock	
-../../Android_Complete/platform/external/aes	
-../../Android_Complete/platform/external/alac	
-../../Android_Complete/platform/external/android-clat	
-../../Android_Complete/platform/external/android-mock	
-../../Android_Complete/platform/external/ant-glob	
-../../Android_Complete/platform/external/antlr	
-../../Android_Complete/platform/external/apache-apr	
-../../Android_Complete/platform/external/apache-apr-util	
-../../Android_Complete/platform/external/apache-harmony	
-../../Android_Complete/platform/external/apache-http	
-../../Android_Complete/platform/external/apache-log4cxx	
-../../Android_Complete/platform/external/apache-qp	#Quoted-printable library
-../../Android_Complete/platform/external/apache-xml	
-../../Android_Complete/platform/external/apple-coreaudiosamples	
-../../Android_Complete/platform/external/arduino	
-../../Android_Complete/platform/external/arduino-ide	
-../../Android_Complete/platform/external/astl	
-../../Android_Complete/platform/external/bison	
-../../Android_Complete/platform/external/blktrace	
-../../Android_Complete/platform/external/bluetooth/bluedroid	
-../../Android_Complete/platform/external/bluetooth/bluez	
-../../Android_Complete/platform/external/bluetooth/glib	
-../../Android_Complete/platform/external/bluetooth/hcidump	
-../../Android_Complete/platform/external/bluez	
-../../Android_Complete/platform/external/boost	
-../../Android_Complete/platform/external/boringssl	
-../../Android_Complete/platform/external/bouncycastle	
-../../Android_Complete/platform/external/bsdiff	
-../../Android_Complete/platform/external/bzip2	
-../../Android_Complete/platform/external/cblas	
-../../Android_Complete/platform/external/ceres-solver	
-../../Android_Complete/platform/external/checkpolicy	
-../../Android_Complete/platform/external/cherry	
-../../Android_Complete/platform/external/chromium	
-../../Android_Complete/platform/external/chromium_org	
-../../Android_Complete/platform/external/chromium_org/sdch/open-vcdiff	
-../../Android_Complete/platform/external/chromium_org/testing/gtest	
-../../Android_Complete/platform/external/chromium_org/third_party/angle	
-../../Android_Complete/platform/external/chromium_org/third_party/angle_dx11	
-../../Android_Complete/platform/external/chromium_org/third_party/boringssl/src	
-../../Android_Complete/platform/external/chromium_org/third_party/brotli/src	
-../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille	
-../../Android_Complete/platform/external/chromium_org/third_party/freetype	
-../../Android_Complete/platform/external/chromium_org/third_party/icu	
-../../Android_Complete/platform/external/chromium_org/third_party/leveldatabase/src	
-../../Android_Complete/platform/external/chromium_org/third_party/libaddressinput/src	
-../../Android_Complete/platform/external/chromium_org/third_party/libjingle/source/talk	
-../../Android_Complete/platform/external/chromium_org/third_party/libjpeg_turbo	
-../../Android_Complete/platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers	
-../../Android_Complete/platform/external/chromium_org/third_party/libphonenumber/src/resources	
-../../Android_Complete/platform/external/chromium_org/third_party/libsrtp	
-../../Android_Complete/platform/external/chromium_org/third_party/libvpx	
-../../Android_Complete/platform/external/chromium_org/third_party/libyuv	
-../../Android_Complete/platform/external/chromium_org/third_party/mesa/src	
-../../Android_Complete/platform/external/chromium_org/third_party/openmax_dl	
-../../Android_Complete/platform/external/chromium_org/third_party/openssl	
-../../Android_Complete/platform/external/chromium_org/third_party/opus/src	
-../../Android_Complete/platform/external/chromium_org/third_party/ots	
-../../Android_Complete/platform/external/chromium_org/third_party/sfntly/cpp/src	
-../../Android_Complete/platform/external/chromium_org/third_party/skia	
-../../Android_Complete/platform/external/chromium_org/third_party/skia/gyp	
-../../Android_Complete/platform/external/chromium_org/third_party/skia/include	
-../../Android_Complete/platform/external/chromium_org/third_party/skia/src	
-../../Android_Complete/platform/external/chromium_org/third_party/smhasher/src	
-../../Android_Complete/platform/external/chromium_org/third_party/usrsctp/usrsctplib	
-../../Android_Complete/platform/external/chromium_org/third_party/WebKit	
-../../Android_Complete/platform/external/chromium_org/third_party/webrtc	
-../../Android_Complete/platform/external/chromium_org/third_party/yasm/source/patched-yasm	
-../../Android_Complete/platform/external/chromium_org/tools/grit	
-../../Android_Complete/platform/external/chromium_org/tools/gyp	
-../../Android_Complete/platform/external/chromium_org/v8	
-../../Android_Complete/platform/external/chromium-libpac	
-../../Android_Complete/platform/external/chromium-trace	
-../../Android_Complete/platform/external/cibu-fonts	
-../../Android_Complete/platform/external/clang	
-../../Android_Complete/platform/external/clang_35a	
-../../Android_Complete/platform/external/clearsilver	
-../../Android_Complete/platform/external/cmockery	
-../../Android_Complete/platform/external/codesourcery	
-../../Android_Complete/platform/external/collada	
-../../Android_Complete/platform/external/compiler-rt	
-../../Android_Complete/platform/external/compiler-rt_35a	
-../../Android_Complete/platform/external/conscrypt	
-../../Android_Complete/platform/external/curl	
-../../Android_Complete/platform/external/dbus	
-../../Android_Complete/platform/external/deqp	
-../../Android_Complete/platform/external/dexmaker	
-../../Android_Complete/platform/external/dhcpcd	
-../../Android_Complete/platform/external/dnsmasq	
-../../Android_Complete/platform/external/doclava	
-../../Android_Complete/platform/external/dosfstools	
-../../Android_Complete/platform/external/droiddriver	
-../../Android_Complete/platform/external/dropbear	
-../../Android_Complete/platform/external/e2fsprogs	
-../../Android_Complete/platform/external/easymock	
-../../Android_Complete/platform/external/eclipse-basebuilder	
-../../Android_Complete/platform/external/eclipse-windowbuilder	
-../../Android_Complete/platform/external/eglib	
-../../Android_Complete/platform/external/eigen	
-../../Android_Complete/platform/external/elfcopy	
-../../Android_Complete/platform/external/elfutils	
-../../Android_Complete/platform/external/embunit	
-../../Android_Complete/platform/external/emma	
-../../Android_Complete/platform/external/esd	
-../../Android_Complete/platform/external/expat	
-../../Android_Complete/platform/external/eyes-free	
-../../Android_Complete/platform/external/f2fs-tools	
-../../Android_Complete/platform/external/faad	
-../../Android_Complete/platform/external/fat32lib	
-../../Android_Complete/platform/external/fdlibm	
-../../Android_Complete/platform/external/fio	
-../../Android_Complete/platform/external/flac	
-../../Android_Complete/platform/external/fonttools	
-../../Android_Complete/platform/external/free-image	
-../../Android_Complete/platform/external/freetype	
-../../Android_Complete/platform/external/fsck_msdos	
-../../Android_Complete/platform/external/ganymed-ssh2	
-../../Android_Complete/platform/external/gcc-demangle	
-../../Android_Complete/platform/external/gdata	
-../../Android_Complete/platform/external/genext2fs	
-../../Android_Complete/platform/external/giflib	
-../../Android_Complete/platform/external/glide	
-../../Android_Complete/platform/external/gmock	
-../../Android_Complete/platform/external/googleclient	
-../../Android_Complete/platform/external/google-diff-match-patch	
-../../Android_Complete/platform/external/google-fonts/carrois-gothic-sc	
-../../Android_Complete/platform/external/google-fonts/coming-soon	
-../../Android_Complete/platform/external/google-fonts/cutive-mono	
-../../Android_Complete/platform/external/google-fonts/dancing-script	
-../../Android_Complete/platform/external/google-tv-pairing-protocol	
-../../Android_Complete/platform/external/grub	
-../../Android_Complete/platform/external/gsoap	
-../../Android_Complete/platform/external/gtest	
-../../Android_Complete/platform/external/guava	
-../../Android_Complete/platform/external/hamcrest	
-../../Android_Complete/platform/external/harfbuzz	
-../../Android_Complete/platform/external/harfbuzz_ng	
-../../Android_Complete/platform/external/hcidump	
-../../Android_Complete/platform/external/hsqldb	
-../../Android_Complete/platform/external/hyphenation	
-../../Android_Complete/platform/external/icu	
-../../Android_Complete/platform/external/icu4c	
-../../Android_Complete/platform/external/id3lib	
-../../Android_Complete/platform/external/iproute2	
-../../Android_Complete/platform/external/ipsec-tools	
-../../Android_Complete/platform/external/iptables	
-../../Android_Complete/platform/external/iputils	
-../../Android_Complete/platform/external/jack	
-../../Android_Complete/platform/external/jarjar	
-../../Android_Complete/platform/external/javasqlite	
-../../Android_Complete/platform/external/javassist	
-../../Android_Complete/platform/external/jdiff	
-../../Android_Complete/platform/external/jemalloc	
-../../Android_Complete/platform/external/jenkins-hash	
-../../Android_Complete/platform/external/jhead	
-../../Android_Complete/platform/external/jline	
-../../Android_Complete/platform/external/jmdns	
-../../Android_Complete/platform/external/jmonkeyengine	
-../../Android_Complete/platform/external/jpeg	
-../../Android_Complete/platform/external/jsilver	
-../../Android_Complete/platform/external/jsmn	
-../../Android_Complete/platform/external/jsoncpp	
-../../Android_Complete/platform/external/jsr305	
-../../Android_Complete/platform/external/junit	
-../../Android_Complete/platform/external/kernel-headers	
-../../Android_Complete/platform/external/ksoap2	
-../../Android_Complete/platform/external/lame	
-../../Android_Complete/platform/external/lcc	
-../../Android_Complete/platform/external/libavc	
-../../Android_Complete/platform/external/libcap-ng	
-../../Android_Complete/platform/external/libcxx	
-../../Android_Complete/platform/external/libcxx_35a	
-../../Android_Complete/platform/external/libcxxabi	
-../../Android_Complete/platform/external/libcxxabi_35a	
-../../Android_Complete/platform/external/libcxxrt	
-../../Android_Complete/platform/external/libedit	
-../../Android_Complete/platform/external/libexif	
-../../Android_Complete/platform/external/libffi	
-../../Android_Complete/platform/external/libgsm	
-../../Android_Complete/platform/external/libhevc	
-../../Android_Complete/platform/external/liblzf	
-../../Android_Complete/platform/external/libmpeg2	
-../../Android_Complete/platform/external/libmtp	
-../../Android_Complete/platform/external/libnfc-nci	
-../../Android_Complete/platform/external/libnfc-nxp	
-../../Android_Complete/platform/external/libnl	
-../../Android_Complete/platform/external/libnl-headers	
-../../Android_Complete/platform/external/libogg	
-../../Android_Complete/platform/external/libopus	
-../../Android_Complete/platform/external/libpcap	
-../../Android_Complete/platform/external/libphonenumber	
-../../Android_Complete/platform/external/libpng	
-../../Android_Complete/platform/external/libppp	
-../../Android_Complete/platform/external/libseccomp-helper	
-../../Android_Complete/platform/external/libselinux	
-../../Android_Complete/platform/external/libsepol	
-../../Android_Complete/platform/external/libssh2	
-../../Android_Complete/platform/external/libunwind	
-../../Android_Complete/platform/external/libusb	
-../../Android_Complete/platform/external/libusb_aah	
-../../Android_Complete/platform/external/libusb-compat	
-../../Android_Complete/platform/external/libutf	
-../../Android_Complete/platform/external/libvorbis	
-../../Android_Complete/platform/external/libvpx	
-../../Android_Complete/platform/external/libvterm	
-../../Android_Complete/platform/external/libxml2	
-../../Android_Complete/platform/external/libxslt	
-../../Android_Complete/platform/external/libyuv	
-../../Android_Complete/platform/external/linux-tools-perf	
-../../Android_Complete/platform/external/littlemock	
-../../Android_Complete/platform/external/lld	
-../../Android_Complete/platform/external/lldb	#Not yet needed
-../../Android_Complete/platform/external/lldb-utils	
-../../Android_Complete/platform/external/llvm	
-../../Android_Complete/platform/external/llvm_35a	
-../../Android_Complete/platform/external/login-items-ae	
-../../Android_Complete/platform/external/lohit-fonts	
-../../Android_Complete/platform/external/ltrace	
-../../Android_Complete/platform/external/lz4	
-../../Android_Complete/platform/external/lzma	
-../../Android_Complete/platform/external/marisa-trie	
-../../Android_Complete/platform/external/markdown	
-../../Android_Complete/platform/external/mdnsresponder	
-../../Android_Complete/platform/external/mesa3d	
-../../Android_Complete/platform/external/messageformat	
-../../Android_Complete/platform/external/mksh	
-../../Android_Complete/platform/external/mockftpserver	
-../../Android_Complete/platform/external/mockito	
-../../Android_Complete/platform/external/mockwebserver	
-../../Android_Complete/platform/external/mp4parser	
-../../Android_Complete/platform/external/mp4v2	
-../../Android_Complete/platform/external/mpg123	
-../../Android_Complete/platform/external/mtpd	
-../../Android_Complete/platform/external/nanohttpd	
-../../Android_Complete/platform/external/nanopb-c	
-../../Android_Complete/platform/external/naver-fonts	
-../../Android_Complete/platform/external/netcat	
-../../Android_Complete/platform/external/netperf	
-../../Android_Complete/platform/external/neven	
-../../Android_Complete/platform/external/nfacct	
-../../Android_Complete/platform/external/nist-pkits	
-../../Android_Complete/platform/external/nist-sip	
-../../Android_Complete/platform/external/noto-fonts	
-../../Android_Complete/platform/external/oauth	
-../../Android_Complete/platform/external/objenesis	
-../../Android_Complete/platform/external/okhttp	
-../../Android_Complete/platform/external/opencore	#OpenCORE Media Framework
-../../Android_Complete/platform/external/opencv	
-../../Android_Complete/platform/external/openfst	
-../../Android_Complete/platform/external/openssh	
-../../Android_Complete/platform/external/openssl	
-../../Android_Complete/platform/external/open-vcdiff	
-../../Android_Complete/platform/external/openvpn	
-../../Android_Complete/platform/external/oprofile	
-../../Android_Complete/platform/external/owasp/sanitizer	
-../../Android_Complete/platform/external/pcre	
-../../Android_Complete/platform/external/pdfium	
-../../Android_Complete/platform/external/ping	
-../../Android_Complete/platform/external/ping6	
-../../Android_Complete/platform/external/pixman	
-../../Android_Complete/platform/external/ppp	
-../../Android_Complete/platform/external/proguard	
-../../Android_Complete/platform/external/protobuf	
-../../Android_Complete/platform/external/pthreads	
-../../Android_Complete/platform/external/qemu	
-../../Android_Complete/platform/external/qemu-android	
-../../Android_Complete/platform/external/qemu-pc-bios	
-../../Android_Complete/platform/external/qt	
-../../Android_Complete/platform/external/quake	
-../../Android_Complete/platform/external/regex-re2	
-../../Android_Complete/platform/external/replicaisland	
-../../Android_Complete/platform/external/robolectric	
-../../Android_Complete/platform/external/safe-iop	
-../../Android_Complete/platform/external/scrypt	
-../../Android_Complete/platform/external/selinux	
-../../Android_Complete/platform/external/sepolicy	
-../../Android_Complete/platform/external/sfntly	
-../../Android_Complete/platform/external/sil-fonts	
-../../Android_Complete/platform/external/skia	
-../../Android_Complete/platform/external/slf4j	
-../../Android_Complete/platform/external/smack	
-../../Android_Complete/platform/external/smali	
-../../Android_Complete/platform/external/sonic	
-../../Android_Complete/platform/external/sonivox	
-../../Android_Complete/platform/external/speex	
-../../Android_Complete/platform/external/sqlite	#SQLite database engine
-../../Android_Complete/(http://sqlite.org)
-../../Android_Complete/platform/external/squashfs-tools	
-../../Android_Complete/platform/external/srec	
-../../Android_Complete/platform/external/srtp	
-../../Android_Complete/platform/external/stlport	
-../../Android_Complete/platform/external/strace	
-../../Android_Complete/platform/external/stressapptest	
-../../Android_Complete/platform/external/svox	
-../../Android_Complete/platform/external/swig	
-../../Android_Complete/platform/external/syspatch	
-../../Android_Complete/platform/external/tagsoup	
-../../Android_Complete/platform/external/tcpdump	
-../../Android_Complete/platform/external/tesseract	#Tesseract Open Source OCR Engine
-../../Android_Complete/platform/external/timezonepicker-support	
-../../Android_Complete/platform/external/tinyalsa	
-../../Android_Complete/platform/external/tinycompress	
-../../Android_Complete/platform/external/tinyxml	
-../../Android_Complete/platform/external/tinyxml2	
-../../Android_Complete/platform/external/toy	
-../../Android_Complete/platform/external/toybox	
-../../Android_Complete/platform/external/tremolo	
-../../Android_Complete/platform/external/tremor	
-../../Android_Complete/platform/external/unicode	
-../../Android_Complete/platform/external/utf8proc	
-../../Android_Complete/platform/external/v8	
-../../Android_Complete/platform/external/valgrind	
-../../Android_Complete/platform/external/vixl	
-../../Android_Complete/platform/external/vogar	
-../../Android_Complete/platform/external/webkit	
-../../Android_Complete/platform/external/webp	
-../../Android_Complete/platform/external/webrtc	
-../../Android_Complete/platform/external/wpa_supplicant	
-../../Android_Complete/platform/external/wpa_supplicant_6	
-../../Android_Complete/platform/external/wpa_supplicant_8	
-../../Android_Complete/platform/external/xdelta3	
-../../Android_Complete/platform/external/xerces-cpp	
-../../Android_Complete/platform/external/xmlwriter	
-../../Android_Complete/platform/external/xmp_toolkit	
-../../Android_Complete/platform/external/yaffs2	
-../../Android_Complete/platform/external/zlib	
-../../Android_Complete/platform/external/zopfli	
-../../Android_Complete/platform/external/zxing	
-../../Android_Complete/platform/frameworks/av	
-../../Android_Complete/platform/frameworks/base	#Android framework classes and services
-../../Android_Complete/platform/frameworks/compile/libbcc	
-../../Android_Complete/platform/frameworks/compile/linkloader	
-../../Android_Complete/platform/frameworks/compile/llvm-ndk-cc	
-../../Android_Complete/platform/frameworks/compile/mclinker	
-../../Android_Complete/platform/frameworks/compile/slang	
-../../Android_Complete/platform/frameworks/ex	
-../../Android_Complete/platform/frameworks/media/libvideoeditor	
-../../Android_Complete/platform/frameworks/mff	
-../../Android_Complete/platform/frameworks/minikin	
-../../Android_Complete/platform/frameworks/ml	
-../../Android_Complete/platform/frameworks/multidex	
-../../Android_Complete/platform/frameworks/native	
-../../Android_Complete/platform/frameworks/opt/bitmap	
-../../Android_Complete/platform/frameworks/opt/bluetooth	
-../../Android_Complete/platform/frameworks/opt/calendar	
-../../Android_Complete/platform/frameworks/opt/carddav	#CardDAV library
-../../Android_Complete/platform/frameworks/opt/chips	
-../../Android_Complete/platform/frameworks/opt/colorpicker	
-../../Android_Complete/platform/frameworks/opt/com.google.android	
-../../Android_Complete/platform/frameworks/opt/com.google.android.googlelogin	
-../../Android_Complete/platform/frameworks/opt/datetimepicker	
-../../Android_Complete/platform/frameworks/opt/emoji	
-../../Android_Complete/platform/frameworks/opt/inputconnectioncommon	
-../../Android_Complete/platform/frameworks/opt/inputmethodcommon	
-../../Android_Complete/platform/frameworks/opt/mailcommon	
-../../Android_Complete/platform/frameworks/opt/mms	
-../../Android_Complete/platform/frameworks/opt/net/ethernet	
-../../Android_Complete/platform/frameworks/opt/net/ims	
-../../Android_Complete/platform/frameworks/opt/net/voip	
-../../Android_Complete/platform/frameworks/opt/net/wifi	
-../../Android_Complete/platform/frameworks/opt/photoviewer	
-../../Android_Complete/platform/frameworks/opt/setupwizard	
-../../Android_Complete/platform/frameworks/opt/telephony	
-../../Android_Complete/platform/frameworks/opt/timezonepicker	
-../../Android_Complete/platform/frameworks/opt/vcard	
-../../Android_Complete/platform/frameworks/opt/widget	
-../../Android_Complete/platform/frameworks/policies/base	
-../../Android_Complete/platform/frameworks/rs	
-../../Android_Complete/platform/frameworks/support	
-../../Android_Complete/platform/frameworks/testing	
-../../Android_Complete/platform/frameworks/uiautomator	
-../../Android_Complete/platform/frameworks/volley	
-../../Android_Complete/platform/frameworks/webview	
-../../Android_Complete/platform/frameworks/wilhelm	
-../../Android_Complete/platform/gdk	
-../../Android_Complete/platform/hardware/akm	
-../../Android_Complete/platform/hardware/broadcom/libbt	
-../../Android_Complete/platform/hardware/broadcom/wlan	
-../../Android_Complete/platform/hardware/google	
-../../Android_Complete/platform/hardware/intel/audio_media	
-../../Android_Complete/platform/hardware/intel/bootstub	
-../../Android_Complete/platform/hardware/intel/common/bd_prov	
-../../Android_Complete/platform/hardware/intel/common/libmix	
-../../Android_Complete/platform/hardware/intel/common/libstagefrighthw	
-../../Android_Complete/platform/hardware/intel/common/libva	
-../../Android_Complete/platform/hardware/intel/common/libwsbm	
-../../Android_Complete/platform/hardware/intel/common/omx-components	
-../../Android_Complete/platform/hardware/intel/common/utils	
-../../Android_Complete/platform/hardware/intel/common/wrs_omxil_core	
-../../Android_Complete/platform/hardware/intel/img/hwcomposer	
-../../Android_Complete/platform/hardware/intel/img/libdrm	
-../../Android_Complete/platform/hardware/intel/img/psb_headers	
-../../Android_Complete/platform/hardware/intel/img/psb_video	
-../../Android_Complete/platform/hardware/invensense	
-../../Android_Complete/platform/hardware/libhardware	#hardware abstraction library
-../../Android_Complete/platform/hardware/libhardware_legacy	
-../../Android_Complete/platform/hardware/msm7k	#msm7k hardware glue
-../../Android_Complete/platform/hardware/nvidia/audio	
-../../Android_Complete/platform/hardware/nvidia/tegra124	
-../../Android_Complete/platform/hardware/qcom/audio	
-../../Android_Complete/platform/hardware/qcom/bt	
-../../Android_Complete/platform/hardware/qcom/camera	
-../../Android_Complete/platform/hardware/qcom/display	
-../../Android_Complete/platform/hardware/qcom/gps	
-../../Android_Complete/platform/hardware/qcom/keymaster	
-../../Android_Complete/platform/hardware/qcom/media	
-../../Android_Complete/platform/hardware/qcom/msm8960	
-../../Android_Complete/platform/hardware/qcom/msm8x26	
-../../Android_Complete/platform/hardware/qcom/msm8x27	
-../../Android_Complete/platform/hardware/qcom/msm8x74	
-../../Android_Complete/platform/hardware/qcom/msm8x84	
-../../Android_Complete/platform/hardware/qcom/power	
-../../Android_Complete/platform/hardware/qcom/sensors	
-../../Android_Complete/platform/hardware/qcom/wlan	
-../../Android_Complete/platform/hardware/ril	#radio interface layer
-../../Android_Complete/platform/hardware/samsung_slsi/exynos5	
-../../Android_Complete/platform/hardware/ti/omap3	
-../../Android_Complete/platform/hardware/ti/omap4-aah	
-../../Android_Complete/platform/hardware/ti/omap4xxx	
-../../Android_Complete/platform/hardware/ti/wlan	
-../../Android_Complete/platform/hardware/ti/wpan	
-../../Android_Complete/platform/libcore	
-../../Android_Complete/platform/libcore2	
-../../Android_Complete/platform/libcore-snapshot	
-../../Android_Complete/platform/libnativehelper	
-../../Android_Complete/platform/manifest	#Android Platform Manifest
-../../Android_Complete/platform/motodev	
-../../Android_Complete/platform/ndk	
-../../Android_Complete/platform/packages/apps/AccountsAndSyncSettings	
-../../Android_Complete/platform/packages/apps/AlarmClock	
-../../Android_Complete/platform/packages/apps/BasicSmsReceiver	
-../../Android_Complete/platform/packages/apps/Bluetooth	
-../../Android_Complete/platform/packages/apps/Browser	
-../../Android_Complete/platform/packages/apps/Calculator	
-../../Android_Complete/platform/packages/apps/Calendar	
-../../Android_Complete/platform/packages/apps/Camera	
-../../Android_Complete/platform/packages/apps/Camera2	
-../../Android_Complete/platform/packages/apps/CellBroadcastReceiver	
-../../Android_Complete/platform/packages/apps/CertInstaller	
-../../Android_Complete/platform/packages/apps/Contacts	#UI for the Contacts, Call log, and Dialer applications
-../../Android_Complete/platform/packages/apps/ContactsCommon	
-../../Android_Complete/platform/packages/apps/DeskClock	
-../../Android_Complete/platform/packages/apps/Dialer	
-../../Android_Complete/platform/packages/apps/Email	
-../../Android_Complete/platform/packages/apps/Exchange	
-../../Android_Complete/platform/packages/apps/FMRadio	
-../../Android_Complete/platform/packages/apps/Gallery	
-../../Android_Complete/platform/packages/apps/Gallery2	
-../../Android_Complete/platform/packages/apps/Gallery3D	
-../../Android_Complete/platform/packages/apps/GlobalSearch	
-../../Android_Complete/platform/packages/apps/GoogleSearch	
-../../Android_Complete/platform/packages/apps/HTMLViewer	
-../../Android_Complete/platform/packages/apps/IM	
-../../Android_Complete/platform/packages/apps/InCallUI	
-../../Android_Complete/platform/packages/apps/KeyChain	
-../../Android_Complete/platform/packages/apps/Launcher	
-../../Android_Complete/platform/packages/apps/Launcher2	
-../../Android_Complete/platform/packages/apps/Launcher3	
-../../Android_Complete/platform/packages/apps/LegacyCamera	
-../../Android_Complete/platform/packages/apps/ManagedProvisioning	
-../../Android_Complete/platform/packages/apps/McLauncher	
-../../Android_Complete/platform/packages/apps/Mms	
-../../Android_Complete/platform/packages/apps/Music	
-../../Android_Complete/platform/packages/apps/MusicFX	
-../../Android_Complete/platform/packages/apps/Nfc	
-../../Android_Complete/platform/packages/apps/OneTimeInitializer	
-../../Android_Complete/platform/packages/apps/PackageInstaller	
-../../Android_Complete/platform/packages/apps/Phone	#Call management UI
-../../Android_Complete/platform/packages/apps/PhoneCommon	
-../../Android_Complete/platform/packages/apps/Protips	
-../../Android_Complete/platform/packages/apps/Provision	#Minimal
-../../Android_Complete/configuration/provisioning #app
-../../Android_Complete/platform/packages/apps/QuickSearchBox	
-../../Android_Complete/platform/packages/apps/Settings	
-../../Android_Complete/platform/packages/apps/SmartCardService	
-../../Android_Complete/platform/packages/apps/SoundRecorder	
-../../Android_Complete/platform/packages/apps/SpareParts	
-../../Android_Complete/platform/packages/apps/SpeechRecorder	
-../../Android_Complete/platform/packages/apps/Stk	
-../../Android_Complete/platform/packages/apps/Sync	
-../../Android_Complete/platform/packages/apps/Tag	
-../../Android_Complete/platform/packages/apps/Terminal	
-../../Android_Complete/platform/packages/apps/TvSettings	
-../../Android_Complete/platform/packages/apps/UnifiedEmail	
-../../Android_Complete/platform/packages/apps/Updater	
-../../Android_Complete/platform/packages/apps/VideoEditor	
-../../Android_Complete/platform/packages/apps/VoiceDialer	
-../../Android_Complete/platform/packages/experimental	
-../../Android_Complete/platform/packages/inputmethods/LatinIME	
-../../Android_Complete/platform/packages/inputmethods/OpenWnn	
-../../Android_Complete/platform/packages/inputmethods/PinyinIME	
-../../Android_Complete/platform/packages/providers/ApplicationsProvider	
-../../Android_Complete/platform/packages/providers/BookmarkProvider	
-../../Android_Complete/platform/packages/providers/CalendarProvider	#Content provider for calendar data
-../../Android_Complete/platform/packages/providers/ContactsProvider	#Content provider for call log data
-../../Android_Complete/platform/packages/providers/DownloadProvider	#Download Manager
-../../Android_Complete/platform/packages/providers/DrmProvider	
-../../Android_Complete/platform/packages/providers/GoogleContactsProvider
-../../Android_Complete/ContactsProvider #to sync contacts with Google
-../../Android_Complete/platform/packages/providers/GoogleSubscribedFeedsProvider	
-../../Android_Complete/platform/packages/providers/ImProvider	
-../../Android_Complete/platform/packages/providers/ManagementProvider	
-../../Android_Complete/platform/packages/providers/MediaProvider	
-../../Android_Complete/platform/packages/providers/PartnerBookmarksProvider	
-../../Android_Complete/platform/packages/providers/TelephonyProvider	
-../../Android_Complete/platform/packages/providers/TvProvider	
-../../Android_Complete/platform/packages/providers/UserDictionaryProvider	
-../../Android_Complete/platform/packages/providers/WebSearchProvider	
-../../Android_Complete/platform/packages/screensavers/Basic	
-../../Android_Complete/platform/packages/screensavers/PhotoTable	
-../../Android_Complete/platform/packages/screensavers/WebView	
-../../Android_Complete/platform/packages/services/EasService	
-../../Android_Complete/platform/packages/services/LockAndWipe	
-../../Android_Complete/platform/packages/services/Mms	
-../../Android_Complete/platform/packages/services/Telecomm	
-../../Android_Complete/platform/packages/services/Telephony	
-../../Android_Complete/platform/packages/wallpapers/Basic	
-../../Android_Complete/platform/packages/wallpapers/Galaxy4	
-../../Android_Complete/platform/packages/wallpapers/HoloSpiral	
-../../Android_Complete/platform/packages/wallpapers/LivePicker	
-../../Android_Complete/platform/packages/wallpapers/MagicSmoke	
-../../Android_Complete/platform/packages/wallpapers/MusicVisualization	
-../../Android_Complete/platform/packages/wallpapers/NoiseField	
-../../Android_Complete/platform/packages/wallpapers/PhaseBeam	
-../../Android_Complete/platform/pdk	
-../../Android_Complete/platform/prebuilt	#binaries to support linux and osx builds
-../../Android_Complete/platform/prebuilts/android-emulator	
-../../Android_Complete/platform/prebuilts/android-emulator-build/archive	
-../../Android_Complete/platform/prebuilts/android-emulator-build/mesa	
-../../Android_Complete/platform/prebuilts/android-emulator-build/mesa-deps	
-../../Android_Complete/platform/prebuilts/android-emulator-build/qemu-android-deps	
-../../Android_Complete/platform/prebuilts/clang/darwin-x86/3.1	
-../../Android_Complete/platform/prebuilts/clang/darwin-x86/3.2	
-../../Android_Complete/platform/prebuilts/clang/darwin-x86/arm/3.3	
-../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/3.3	
-../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/3.4	
-../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/3.5	
-../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/3.6	
-../../Android_Complete/platform/prebuilts/clang/darwin-x86/mips/3.3	
-../../Android_Complete/platform/prebuilts/clang/darwin-x86/sdk/3.5	
-../../Android_Complete/platform/prebuilts/clang/darwin-x86/x86/3.3	
-../../Android_Complete/platform/prebuilts/clang/linux-x86/3.1	
-../../Android_Complete/platform/prebuilts/clang/linux-x86/3.2	
-../../Android_Complete/platform/prebuilts/clang/linux-x86/arm/3.3	
-../../Android_Complete/platform/prebuilts/clang/linux-x86/host/3.3	
-../../Android_Complete/platform/prebuilts/clang/linux-x86/host/3.4	
-../../Android_Complete/platform/prebuilts/clang/linux-x86/host/3.5	
-../../Android_Complete/platform/prebuilts/clang/linux-x86/host/3.6	
-../../Android_Complete/platform/prebuilts/clang/linux-x86/mips/3.3	
-../../Android_Complete/platform/prebuilts/clang/linux-x86/x86/3.3	
-../../Android_Complete/platform/prebuilts/devtools	
-../../Android_Complete/platform/prebuilts/eclipse	
-#Prebuilt packages from the Eclipse project, used to build components of the SDK.
-../../Android_Complete/platform/prebuilts/eclipse-build-deps	
-../../Android_Complete/platform/prebuilts/eclipse-build-deps-sources	
-../../Android_Complete/platform/prebuilts/fullsdk/build-tools/22-darwin	
-../../Android_Complete/platform/prebuilts/fullsdk/build-tools/22-linux	
-../../Android_Complete/platform/prebuilts/fullsdk/build-tools/22-windows	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/host/headers	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3
-../../Android_Complete/MIPS #4.4.3 toolchain, for 32-bit MacOS.
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.6	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8	
-../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3
-../../Android_Complete/MIPS #4.4.3 toolchain, for 32-bit linux.
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.6	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8	
-../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9	
-../../Android_Complete/platform/prebuilts/go/darwin-x86	
-../../Android_Complete/platform/prebuilts/go/linux-x86	
-../../Android_Complete/platform/prebuilts/go/windows-x86	
-../../Android_Complete/platform/prebuilts/gradle-plugin	
-../../Android_Complete/platform/prebuilts/libs/libedit	
-../../Android_Complete/platform/prebuilts/maven_repo/android	
-../../Android_Complete/platform/prebuilts/misc	#Miscellaneous prebuilt modules
-../../Android_Complete/platform/prebuilts/ndk	
-../../Android_Complete/platform/prebuilts/ninja/darwin-x86	
-../../Android_Complete/platform/prebuilts/ninja/linux-x86	
-../../Android_Complete/platform/prebuilts/python/darwin-x86/2.7.5	
-../../Android_Complete/platform/prebuilts/python/linux-x86/2.7.5	
-../../Android_Complete/platform/prebuilts/qemu-kernel	
-../../Android_Complete/platform/prebuilts/runtime	
-../../Android_Complete/platform/prebuilts/sdk	
-../../Android_Complete/platform/prebuilts/tools	
-../../Android_Complete/platform/sdk	#Development Tools for the SDK
-../../Android_Complete/platform/system/bluetooth	#bluetooth tools
-../../Android_Complete/platform/system/bt	
-../../Android_Complete/platform/system/core	#minimal bootable environment
-../../Android_Complete/platform/system/extras	#debugging/inspection tools
-../../Android_Complete/platform/system/gatekeeper	
-../../Android_Complete/platform/system/keyguard	
-../../Android_Complete/platform/system/keymaster	
-../../Android_Complete/platform/system/media	
-../../Android_Complete/platform/system/netd	
-../../Android_Complete/platform/system/security	
-../../Android_Complete/platform/system/vold	
-../../Android_Complete/platform/system/wlan/ti	#TI 1251 WLAN driver and tools
-../../Android_Complete/platform/tools/adt/eclipse	
-../../Android_Complete/platform/tools/adt/idea	
-../../Android_Complete/platform/tools/base	
-../../Android_Complete/platform/tools/build	
-../../Android_Complete/platform/tools/buildSrc	
-../../Android_Complete/platform/tools/emulator	
-../../Android_Complete/platform/tools/external/fat32lib	
-../../Android_Complete/platform/tools/external/go/src/github.com/go-gl/glfw	
-../../Android_Complete/platform/tools/external/go/src/github.com/go-gl-legacy/gl	
-../../Android_Complete/platform/tools/external/go/src/github.com/golang/protobuf	
-../../Android_Complete/platform/tools/external/go/src/golang.org/x/net	
-../../Android_Complete/platform/tools/external/go/src/golang.org/x/tools	
-../../Android_Complete/platform/tools/external/gradle	
-../../Android_Complete/platform/tools/gpu	
-../../Android_Complete/platform/tools/gradle	
-../../Android_Complete/platform/tools/idea	
-../../Android_Complete/platform/tools/loganalysis	
-../../Android_Complete/platform/tools/motodev	
-../../Android_Complete/platform/tools/studio/cloud	
-../../Android_Complete/platform/tools/studio/google/cloud/testing	
-../../Android_Complete/platform/tools/studio/google/cloud/tools	
-../../Android_Complete/platform/tools/studio/google/login	
-../../Android_Complete/platform/tools/studio/google/play	
-../../Android_Complete/platform/tools/studio/translation	
-../../Android_Complete/platform/tools/swt	
-../../Android_Complete/platform/tools/tradefederation	
-../../Android_Complete/platform/vendor/htc/dream-open	#build configuration for HTC Dream
-../../Android_Complete/platform/vendor/invensense	
-../../Android_Complete/platform/vendor/sample	
-../../Android_Complete/Platform-Chromium-Projects	#Parent projects for all projects with
-../../Android_Complete/Platform-Projects	#Base project for all active Android platform
-../../Android_Complete/Platform-Unrestricted-Projects	#Base project for Android platform
-../../Android_Complete/Public-Projects	
-../../Android_Complete/toolchain/avr-libc	
-../../Android_Complete/toolchain/benchmark	
-../../Android_Complete/toolchain/binutils	
-../../Android_Complete/toolchain/build	
-../../Android_Complete/toolchain/ccache	
-../../Android_Complete/toolchain/clang	
-../../Android_Complete/toolchain/cloog	
-../../Android_Complete/toolchain/compiler-rt	
-../../Android_Complete/toolchain/expat	
-../../Android_Complete/toolchain/gcc	
-../../Android_Complete/toolchain/gdb	
-../../Android_Complete/toolchain/gmp	
-../../Android_Complete/toolchain/gold	
-../../Android_Complete/toolchain/isl	
-../../Android_Complete/toolchain/jack	
-../../Android_Complete/toolchain/jill	
-../../Android_Complete/toolchain/llvm	
-../../Android_Complete/toolchain/manifest	
-../../Android_Complete/toolchain/mclinker	
-../../Android_Complete/toolchain/mpc	
-../../Android_Complete/toolchain/mpfr	
-../../Android_Complete/toolchain/perl	
-../../Android_Complete/toolchain/polly	
-../../Android_Complete/toolchain/ppl	
-../../Android_Complete/toolchain/python	
-../../Android_Complete/toolchain/valgrind	
-../../Android_Complete/toolchain/yasm	
-../../Android_Complete/tools/aospstats	#A project to collect and display stats about AOSP.
-../../Android_Complete/tools/repo
+mkdir ../../Android_Complete/device/google/
+mkdir ../../Android_Complete/device/google/accessory
+#git clone https://android.googlesource.com/device/google/accessory/adk2012
+mv adk2012 ../../Android_Complete/device/google/accessory/
+#git clone https://android.googlesource.com/device/google/accessory/adk2012_demo
+mv adk2012_demo ../../Android_Complete/device/google/accessory/
+mv arduino ../../Android_Complete/device/google/accessory/
+mv demokit ../../Android_Complete/device/google/accessory/
+mv atv ../../Android_Complete/device/google/
+mv debugcable ../../Android_Complete/device/google/
+mv phantasm ../../Android_Complete/device/google/
+mkdir ../../Android_Complete/device/htc/
+mv common ../../Android_Complete/device/htc/
+mv dream ../../Android_Complete/device/htc/
+mv dream-sapphire ../../Android_Complete/device/htc/
+mv flounder ../../Android_Complete/device/htc/
+mv flounder-kernel ../../Android_Complete/device/htc/
+mv passion ../../Android_Complete/device/htc/
+mv passion-common ../../Android_Complete/device/htc/
+mv sapphire ../../Android_Complete/device/htc/
+mkdir ../../Android_Complete/device/lge/
+mv hammerhead ../../Android_Complete/device/lge/
+mv hammerhead-kernel ../../Android_Complete/device/lge/
+mv mako ../../Android_Complete/device/lge/
+mv mako-kernel ../../Android_Complete/device/lge/
+mkdir ../../Android_Complete/device/moto/
+mv common ../../Android_Complete/device/moto/
+mv shamu ../../Android_Complete/device/moto/
+mv shamu-kernel ../../Android_Complete/device/moto/
+mv stingray ../../Android_Complete/device/moto/
+mv wingray ../../Android_Complete/device/moto/
+mv sample ../../Android_Complete/device/
+mkdir ../../Android_Complete/device/samsung_slsi/
+mv arndale ../../Android_Complete/device/samsung_slsi/
+mkdir ../../Android_Complete/device/samsung/
+mv crespo ../../Android_Complete/device/samsung/
+mv a.k.a ../../Android_Complete/
+mv crespo4g ../../Android_Complete/device/samsung/
+mv maguro ../../Android_Complete/device/samsung/
+mv manta ../../Android_Complete/device/samsung/
+mv toro ../../Android_Complete/device/samsung/
+mv toroplus ../../Android_Complete/device/samsung/
+mv Galaxy ../../Android_Complete/ 
+mv torospr ../../Android_Complete/device/samsung/
+mv tuna ../../Android_Complete/device/samsung/
+mkdir ../../Android_Complete/device/sony/
+mv lt26 ../../Android_Complete/device/sony/
+mkdir ../../Android_Complete/device/ti/
+mkdir ../../Android_Complete/device/ti/bootloader/
+mv uboot ../../Android_Complete/device/ti/bootloader/
+mv panda ../../Android_Complete/device/ti/
+mkdir ../../Android_Complete/kernel/
+mv bcm ../../Android_Complete/kernel/	
+mv common ../../Android_Complete/kernel/	
+mv exynos ../../Android_Complete/kernel/
+mv goldfish ../../Android_Complete/kernel/
+mv lk ../../Android_Complete/kernel/
+mv mediatek ../../Android_Complete/kernel/
+mv msm ../../Android_Complete/kernel/
+mv omap ../../Android_Complete/kernel/
+mv samsung ../../Android_Complete/kernel/
+mv tegra ../../Android_Complete/kernel/
+mv x86_64 ../../Android_Complete/kernel/
+mv Kernel-Projects ../../Android_Complete/
+mkdir ../../Android_Complete/mirror/
+mv manifest ../../Android_Complete/mirror/
+mv hosted ../../Android_Complete/
+mkdir ../../Android_Complete/platform/
+mkdir ../../Android_Complete/platform/abi
+mv cpp ../../Android_Complete/platform/abi/
+mv art ../../Android_Complete/platform/
+mv bionic ../../Android_Complete/platform/
+mkdir ../../Android_Complete/platform/bootable/
+mkdir ../../Android_Complete/platform/bootable/bootloader/
+mv legacy ../../Android_Complete/platform/bootable/bootloader/
+mv diskinstaller ../../Android_Complete/platform/bootable/
+mv recovery ../../Android_Complete/platform/bootable/
+mv build ../../Android_Complete/platform/
+mv blueprint ../../Android_Complete/platform/build/
+mv soong ../../Android_Complete/platform/build/
+mv cts ../../Android_Complete/platform/
+mv dalvik ../../Android_Complete/platform/
+mv dalvik2 ../../Android_Complete/platform/
+mv dalvik-snapshot ../../Android_Complete/platform/
+mkdir ../../Android_Complete/platform/developers/
+mv build ../../Android_Complete/platform/developers/
+mv demos ../../Android_Complete/platform/developers/
+mv docs ../../Android_Complete/platform/developers/
+mkdir ../../Android_Complete/platform/developers/samples/
+mv android ../../Android_Complete/platform/developers/samples/
+mv development ../../Android_Complete/platform/
+mkdir ../../Android_Complete/platform/external/
+mv aac ../../Android_Complete/platform/external/
+mv actionbarsherlock ../../Android_Complete/platform/external/
+mv aes ../../Android_Complete/platform/external/
+mv alac ../../Android_Complete/platform/external/
+mv android-clat ../../Android_Complete/platform/external/
+mv android-mock ../../Android_Complete/platform/external/
+mv ant-glob ../../Android_Complete/platform/external/
+mv antlr ../../Android_Complete/platform/external/
+mv apache-apr ../../Android_Complete/platform/external/
+mv apache-apr-util ../../Android_Complete/platform/external/
+mv apache-harmony ../../Android_Complete/platform/external/
+mv apache-http ../../Android_Complete/platform/external/
+mv apache-log4cxx ../../Android_Complete/platform/external/
+mv apache-qp ../../Android_Complete/platform/external/
+mv apache-xml ../../Android_Complete/platform/external/
+mv apple-coreaudiosamples ../../Android_Complete/platform/external/
+mv arduino ../../Android_Complete/platform/external/
+mv arduino-ide ../../Android_Complete/platform/external/
+mv astl ../../Android_Complete/platform/external/
+mv bison ../../Android_Complete/platform/external/
+mv blktrace ../../Android_Complete/platform/external/
+mkdir ../../Android_Complete/platform/external/bluetooth/
+mv bluedroid ../../Android_Complete/platform/external/bluetooth/
+mv bluez ../../Android_Complete/platform/external/bluetooth/
+mv glib ../../Android_Complete/platform/external/bluetooth/
+mv hcidump ../../Android_Complete/platform/external/bluetooth/
+mv bluez ../../Android_Complete/platform/external/
+mv boost ../../Android_Complete/platform/external/
+mv boringssl ../../Android_Complete/platform/external/
+mv bouncycastle ../../Android_Complete/platform/external/
+mv bsdiff ../../Android_Complete/platform/external/
+mv bzip2 ../../Android_Complete/platform/external/
+mv cblas ../../Android_Complete/platform/external/
+mv ceres-solver ../../Android_Complete/platform/external/
+mv checkpolicy ../../Android_Complete/platform/external/
+mv cherry ../../Android_Complete/platform/external/
+mv chromium ../../Android_Complete/platform/external/	
+mv chromium_org ../../Android_Complete/platform/external/
+mkdir ../../Android_Complete/platform/external/chromium_org/sdch/
+mv open-vcdiff ../../Android_Complete/platform/external/chromium_org/sdch/
+mkdir ../../Android_Complete/platform/external/chromium_org/testing/
+mv gtest ../../Android_Complete/platform/external/chromium_org/testing/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/
+mv angle ../../Android_Complete/platform/external/chromium_org/third_party/
+mv angle_dx11 ../../Android_Complete/platform/external/chromium_org/third_party/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/boringssl/
+mv src ../../Android_Complete/platform/external/chromium_org/third_party/boringssl/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/brotli/
+mv src ../../Android_Complete/platform/external/chromium_org/third_party/brotli/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/android/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/android/java/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/
+mv braille ../../Android_Complete/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/
+mv freetype ../../Android_Complete/platform/external/chromium_org/third_party/
+mv icu ../../Android_Complete/platform/external/chromium_org/third_party/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/leveldatabase/
+mv src ../../Android_Complete/platform/external/chromium_org/third_party/leveldatabase/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libaddressinput/
+mv src ../../Android_Complete/platform/external/chromium_org/third_party/libaddressinput/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libjingle/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libjingle/source/
+mv talk ../../Android_Complete/platform/external/chromium_org/third_party/libjingle/source/
+mv libjpeg_turbo ../../Android_Complete/platform/external/chromium_org/third_party/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libphonenumber/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/libphonenumber/src/
+mv phonenumbers ../../Android_Complete/platform/external/chromium_org/third_party/libphonenumber/src/
+mv resources ../../Android_Complete/platform/external/chromium_org/third_party/libphonenumber/src/
+mv libsrtp ../../Android_Complete/platform/external/chromium_org/third_party/
+mv libvpx ../../Android_Complete/platform/external/chromium_org/third_party/
+mv libyuv ../../Android_Complete/platform/external/chromium_org/third_party/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/mesa/
+mv src ../../Android_Complete/platform/external/chromium_org/third_party/mesa/
+mv openmax_dl ../../Android_Complete/platform/external/chromium_org/third_party/
+mv openssl ../../Android_Complete/platform/external/chromium_org/third_party/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/opus/
+mv src ../../Android_Complete/platform/external/chromium_org/third_party/opus/
+mv ots ../../Android_Complete/platform/external/chromium_org/third_party/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/sfntly/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/sfntly/cpp/
+mv src ../../Android_Complete/platform/external/chromium_org/third_party/sfntly/cpp/
+mv skia ../../Android_Complete/platform/external/chromium_org/third_party/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/skia/
+mv gyp ../../Android_Complete/platform/external/chromium_org/third_party/skia/
+mv include ../../Android_Complete/platform/external/chromium_org/third_party/skia/
+mv src ../../Android_Complete/platform/external/chromium_org/third_party/skia/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/smhasher/
+mv src ../../Android_Complete/platform/external/chromium_org/third_party/smhasher/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/usrsctp/
+mv usrsctplib ../../Android_Complete/platform/external/chromium_org/third_party/usrsctp/
+mv WebKit ../../Android_Complete/platform/external/chromium_org/third_party/
+mv webrtc ../../Android_Complete/platform/external/chromium_org/third_party/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/yasm/
+mkdir ../../Android_Complete/platform/external/chromium_org/third_party/yasm/source/
+mv patched-yasm ../../Android_Complete/platform/external/chromium_org/third_party/yasm/source/
+mkdir ../../Android_Complete/platform/external/chromium_org/tools/
+mv grit ../../Android_Complete/platform/external/chromium_org/tools/
+mv gyp ../../Android_Complete/platform/external/chromium_org/tools/
+mv v8 ../../Android_Complete/platform/external/chromium_org/
+mv chromium-libpac ../../Android_Complete/platform/external/
+mv chromium-trace ../../Android_Complete/platform/external/
+mv cibu-fonts ../../Android_Complete/platform/external/
+mv clang ../../Android_Complete/platform/external/
+mv clang_35a ../../Android_Complete/platform/external/
+mv clearsilver ../../Android_Complete/platform/external/
+mv cmockery ../../Android_Complete/platform/external/
+mv codesourcery ../../Android_Complete/platform/external/
+mv collada ../../Android_Complete/platform/external/
+mv compiler-rt ../../Android_Complete/platform/external/
+mv compiler-rt_35a ../../Android_Complete/platform/external/
+mv conscrypt ../../Android_Complete/platform/external/
+mv curl ../../Android_Complete/platform/external/
+mv dbus ../../Android_Complete/platform/external/
+mv deqp ../../Android_Complete/platform/external/
+mv dexmaker ../../Android_Complete/platform/external/
+mv dhcpcd ../../Android_Complete/platform/external/
+mv dnsmasq ../../Android_Complete/platform/external/
+mv doclava ../../Android_Complete/platform/external/
+mv dosfstools ../../Android_Complete/platform/external/
+mv droiddriver ../../Android_Complete/platform/external/
+mv dropbear ../../Android_Complete/platform/external/
+mv e2fsprogs ../../Android_Complete/platform/external/
+mv easymock ../../Android_Complete/platform/external/
+mv eclipse-basebuilder ../../Android_Complete/platform/external/
+mv eclipse-windowbuilder ../../Android_Complete/platform/external/
+mv eglib ../../Android_Complete/platform/external/
+mv eigen ../../Android_Complete/platform/external/
+mv elfcopy ../../Android_Complete/platform/external/
+mv elfutils ../../Android_Complete/platform/external/
+mv embunit ../../Android_Complete/platform/external/
+mv emma ../../Android_Complete/platform/external/
+mv esd ../../Android_Complete/platform/external/
+mv expat ../../Android_Complete/platform/external/
+mv eyes-free ../../Android_Complete/platform/external/
+mv f2fs-tools ../../Android_Complete/platform/external/
+mv faad ../../Android_Complete/platform/external/
+mv fat32lib ../../Android_Complete/platform/external/
+mv fdlibm ../../Android_Complete/platform/external/
+mv fio ../../Android_Complete/platform/external/
+mv flac ../../Android_Complete/platform/external/
+mv fonttools ../../Android_Complete/platform/external/
+mv free-image ../../Android_Complete/platform/external/
+mv freetype ../../Android_Complete/platform/external/
+mv fsck_msdos ../../Android_Complete/platform/external/
+mv ganymed-ssh2 ../../Android_Complete/platform/external/
+mv gcc-demangle ../../Android_Complete/platform/external/
+mv gdata ../../Android_Complete/platform/external/
+mv genext2fs ../../Android_Complete/platform/external/
+mv giflib ../../Android_Complete/platform/external/
+mv glide ../../Android_Complete/platform/external/
+mv gmock ../../Android_Complete/platform/external/
+mv googleclient ../../Android_Complete/platform/external/
+mv google-diff-match-patch ../../Android_Complete/platform/external/
+mkdir ../../Android_Complete/platform/external/google-fonts/
+mv carrois-gothic-sc ../../Android_Complete/platform/external/google-fonts/
+mv coming-soon ../../Android_Complete/platform/external/google-fonts/
+mv cutive-mono ../../Android_Complete/platform/external/google-fonts/
+mv dancing-script ../../Android_Complete/platform/external/google-fonts/
+mv google-tv-pairing-protocol ../../Android_Complete/platform/external/
+mv grub ../../Android_Complete/platform/external/
+mv gsoap ../../Android_Complete/platform/external/
+mv gtest ../../Android_Complete/platform/external/
+mv guava ../../Android_Complete/platform/external/
+mv hamcrest ../../Android_Complete/platform/external/
+mv harfbuzz ../../Android_Complete/platform/external/
+mv harfbuzz_ng ../../Android_Complete/platform/external/
+mv hcidump ../../Android_Complete/platform/external/
+mv hsqldb ../../Android_Complete/platform/external/
+mv hyphenation ../../Android_Complete/platform/external/
+mv icu ../../Android_Complete/platform/external/
+mv icu4c ../../Android_Complete/platform/external/
+mv id3lib ../../Android_Complete/platform/external/
+mv iproute2 ../../Android_Complete/platform/external/
+mv ipsec-tools ../../Android_Complete/platform/external/
+mv iptables ../../Android_Complete/platform/external/
+mv iputils ../../Android_Complete/platform/external/
+mv jack ../../Android_Complete/platform/external/
+mv jarjar ../../Android_Complete/platform/external/
+mv javasqlite ../../Android_Complete/platform/external/
+mv javassist ../../Android_Complete/platform/external/
+mv jdiff ../../Android_Complete/platform/external/
+mv jemalloc ../../Android_Complete/platform/external/
+mv jenkins-hash ../../Android_Complete/platform/external/
+mv jhead ../../Android_Complete/platform/external/
+mv jline ../../Android_Complete/platform/external/
+mv jmdns ../../Android_Complete/platform/external/
+mv jmonkeyengine ../../Android_Complete/platform/external/
+mv jpeg ../../Android_Complete/platform/external/
+mv jsilver ../../Android_Complete/platform/external/
+mv jsmn ../../Android_Complete/platform/external/
+mv jsoncpp ../../Android_Complete/platform/external/
+mv jsr305 ../../Android_Complete/platform/external/
+mv junit ../../Android_Complete/platform/external/
+mv kernel-headers ../../Android_Complete/platform/external/
+mv ksoap2 ../../Android_Complete/platform/external/
+mv lame ../../Android_Complete/platform/external/
+mv lcc ../../Android_Complete/platform/external/
+mv libavc ../../Android_Complete/platform/external/
+mv libcap-ng ../../Android_Complete/platform/external/
+mv libcxx ../../Android_Complete/platform/external/
+mv libcxx_35a ../../Android_Complete/platform/external/
+mv libcxxabi ../../Android_Complete/platform/external/
+mv libcxxabi_35a ../../Android_Complete/platform/external/
+mv libcxxrt ../../Android_Complete/platform/external/
+mv libedit ../../Android_Complete/platform/external/
+mv libexif ../../Android_Complete/platform/external/
+mv libffi ../../Android_Complete/platform/external/
+mv libgsm ../../Android_Complete/platform/external/
+mv libhevc ../../Android_Complete/platform/external/
+mv liblzf ../../Android_Complete/platform/external/
+mv libmpeg2 ../../Android_Complete/platform/external/
+mv libmtp ../../Android_Complete/platform/external/
+mv libnfc-nci ../../Android_Complete/platform/external/
+mv libnfc-nxp ../../Android_Complete/platform/external/
+mv libnl ../../Android_Complete/platform/external/
+mv libnl-headers ../../Android_Complete/platform/external/
+mv libogg ../../Android_Complete/platform/external/
+mv libopus ../../Android_Complete/platform/external/
+mv libpcap ../../Android_Complete/platform/external/
+mv libphonenumber ../../Android_Complete/platform/external/
+mv libpng ../../Android_Complete/platform/external/
+mv libppp ../../Android_Complete/platform/external/
+mv libseccomp-helper ../../Android_Complete/platform/external/
+mv libselinux ../../Android_Complete/platform/external/
+mv libsepol ../../Android_Complete/platform/external/
+mv libssh2 ../../Android_Complete/platform/external/
+mv libunwind ../../Android_Complete/platform/external/
+mv libusb ../../Android_Complete/platform/external/
+mv libusb_aah ../../Android_Complete/platform/external/
+mv libusb-compat ../../Android_Complete/platform/external/
+mv libutf ../../Android_Complete/platform/external/
+mv libvorbis ../../Android_Complete/platform/external/
+mv libvpx ../../Android_Complete/platform/external/
+mv libvterm ../../Android_Complete/platform/external/
+mv libxml2 ../../Android_Complete/platform/external/
+mv libxslt ../../Android_Complete/platform/external/
+mv libyuv ../../Android_Complete/platform/external/
+mv linux-tools-perf ../../Android_Complete/platform/external/
+mv littlemock ../../Android_Complete/platform/external/
+mv lld ../../Android_Complete/platform/external/
+mv lldb ../../Android_Complete/platform/external/
+mv lldb-utils ../../Android_Complete/platform/external/
+mv llvm ../../Android_Complete/platform/external/
+mv llvm_35a ../../Android_Complete/platform/external/
+mv login-items-ae ../../Android_Complete/platform/external/
+mv lohit-fonts ../../Android_Complete/platform/external/
+mv ltrace ../../Android_Complete/platform/external/
+mv lz4 ../../Android_Complete/platform/external/
+mv lzma ../../Android_Complete/platform/external/
+mv marisa-trie ../../Android_Complete/platform/external/
+mv markdown ../../Android_Complete/platform/external/
+mv mdnsresponder ../../Android_Complete/platform/external/
+mv mesa3d ../../Android_Complete/platform/external/
+mv messageformat ../../Android_Complete/platform/external/
+mv mksh ../../Android_Complete/platform/external/
+mv mockftpserver ../../Android_Complete/platform/external/
+mv mockito ../../Android_Complete/platform/external/
+mv mockwebserver ../../Android_Complete/platform/external/
+mv mp4parser ../../Android_Complete/platform/external/
+mv mp4v2 ../../Android_Complete/platform/external/
+mv mpg123 ../../Android_Complete/platform/external/
+mv mtpd ../../Android_Complete/platform/external/
+mv nanohttpd ../../Android_Complete/platform/external/
+mv nanopb-c ../../Android_Complete/platform/external/
+mv naver-fonts ../../Android_Complete/platform/external/
+mv netcat ../../Android_Complete/platform/external/
+mv netperf ../../Android_Complete/platform/external/
+mv neven ../../Android_Complete/platform/external/
+mv nfacct ../../Android_Complete/platform/external/
+mv nist-pkits ../../Android_Complete/platform/external/
+mv nist-sip ../../Android_Complete/platform/external/
+mv noto-fonts ../../Android_Complete/platform/external/
+mv oauth ../../Android_Complete/platform/external/
+mv objenesis ../../Android_Complete/platform/external/
+mv okhttp ../../Android_Complete/platform/external/
+mv opencore ../../Android_Complete/platform/external/
+mv opencv ../../Android_Complete/platform/external/
+mv openfst ../../Android_Complete/platform/external/
+mv openssh ../../Android_Complete/platform/external/
+mv openssl ../../Android_Complete/platform/external/
+mv open-vcdiff ../../Android_Complete/platform/external/
+mv openvpn ../../Android_Complete/platform/external/
+mv oprofile ../../Android_Complete/platform/external/
+mkdir ../../Android_Complete/platform/external/owasp/
+mv sanitizer ../../Android_Complete/platform/external/owasp/
+mv pcre ../../Android_Complete/platform/external/
+mv pdfium ../../Android_Complete/platform/external/
+mv ping ../../Android_Complete/platform/external/
+mv ping6 ../../Android_Complete/platform/external/
+mv pixman ../../Android_Complete/platform/external/
+mv ppp ../../Android_Complete/platform/external/
+mv proguard ../../Android_Complete/platform/external/
+mv protobuf ../../Android_Complete/platform/external/
+mv pthreads ../../Android_Complete/platform/external/
+mv qemu ../../Android_Complete/platform/external/
+mv qemu-android ../../Android_Complete/platform/external/
+mv qemu-pc-bios ../../Android_Complete/platform/external/
+mv qt ../../Android_Complete/platform/external/
+mv quake ../../Android_Complete/platform/external/
+mv regex-re2 ../../Android_Complete/platform/external/
+mv replicaisland ../../Android_Complete/platform/external/
+mv robolectric ../../Android_Complete/platform/external/
+mv safe-iop ../../Android_Complete/platform/external/
+mv scrypt ../../Android_Complete/platform/external/
+mv selinux ../../Android_Complete/platform/external/
+mv sepolicy ../../Android_Complete/platform/external/
+mv sfntly ../../Android_Complete/platform/external/
+mv sil-fonts ../../Android_Complete/platform/external/
+mv skia ../../Android_Complete/platform/external/
+mv slf4j ../../Android_Complete/platform/external/
+mv smack ../../Android_Complete/platform/external/
+mv smali ../../Android_Complete/platform/external/
+mv sonic ../../Android_Complete/platform/external/
+mv sonivox ../../Android_Complete/platform/external/
+mv speex ../../Android_Complete/platform/external/
+mv sqlite ../../Android_Complete/platform/external/
+mv squashfs-tools ../../Android_Complete/platform/external/
+mv srec ../../Android_Complete/platform/external/
+mv srtp ../../Android_Complete/platform/external/
+mv stlport ../../Android_Complete/platform/external/
+mv strace ../../Android_Complete/platform/external/
+mv stressapptest ../../Android_Complete/platform/external/
+mv svox ../../Android_Complete/platform/external/
+mv swig ../../Android_Complete/platform/external/
+mv syspatch ../../Android_Complete/platform/external/
+mv tagsoup ../../Android_Complete/platform/external/
+mv tcpdump ../../Android_Complete/platform/external/
+mv tesseract ../../Android_Complete/platform/external/
+mv timezonepicker-support ../../Android_Complete/platform/external/
+mv tinyalsa ../../Android_Complete/platform/external/
+mv tinycompress ../../Android_Complete/platform/external/
+mv tinyxml ../../Android_Complete/platform/external/
+mv tinyxml2 ../../Android_Complete/platform/external/
+mv toy ../../Android_Complete/platform/external/
+mv toybox ../../Android_Complete/platform/external/
+mv tremolo ../../Android_Complete/platform/external/
+mv tremor ../../Android_Complete/platform/external/
+mv unicode ../../Android_Complete/platform/external/
+mv utf8proc ../../Android_Complete/platform/external/
+mv v8 ../../Android_Complete/platform/external/
+mv valgrind ../../Android_Complete/platform/external/
+mv vixl ../../Android_Complete/platform/external/
+mv vogar ../../Android_Complete/platform/external/
+mv webkit ../../Android_Complete/platform/external/
+mv webp ../../Android_Complete/platform/external/
+mv webrtc ../../Android_Complete/platform/external/
+mv wpa_supplicant ../../Android_Complete/platform/external/
+mv wpa_supplicant_6 ../../Android_Complete/platform/external/
+mv wpa_supplicant_8 ../../Android_Complete/platform/external/
+mv xdelta3 ../../Android_Complete/platform/external/
+mv xerces-cpp ../../Android_Complete/platform/external/
+mv xmlwriter ../../Android_Complete/platform/external/
+mv xmp_toolkit ../../Android_Complete/platform/external/
+mv yaffs2 ../../Android_Complete/platform/external/
+mv zlib ../../Android_Complete/platform/external/
+mv zopfli ../../Android_Complete/platform/external/
+mv zxing ../../Android_Complete/platform/external/
+mkdir ../../Android_Complete/platform/frameworks/
+mv av ../../Android_Complete/platform/frameworks/
+mv base ../../Android_Complete/platform/frameworks/
+mkdir ../../Android_Complete/platform/frameworks/compile/
+mv libbcc ../../Android_Complete/platform/frameworks/compile/
+mv linkloader ../../Android_Complete/platform/frameworks/compile/
+mv llvm-ndk-cc ../../Android_Complete/platform/frameworks/compile/
+mv mclinker ../../Android_Complete/platform/frameworks/compile/
+mv slang ../../Android_Complete/platform/frameworks/compile/
+mv ex ../../Android_Complete/platform/frameworks/
+mkdir ../../Android_Complete/platform/frameworks/media/
+mv libvideoeditor ../../Android_Complete/platform/frameworks/media/
+mv mff ../../Android_Complete/platform/frameworks/
+mv minikin ../../Android_Complete/platform/frameworks/
+mv ml ../../Android_Complete/platform/frameworks/
+mv multidex ../../Android_Complete/platform/frameworks/
+mv native ../../Android_Complete/platform/frameworks/
+mkdir ../../Android_Complete/platform/frameworks/opt/
+mv bitmap ../../Android_Complete/platform/frameworks/opt/
+mv bluetooth ../../Android_Complete/platform/frameworks/opt/
+mv calendar ../../Android_Complete/platform/frameworks/opt/
+mv carddav ../../Android_Complete/platform/frameworks/opt/
+mv chips ../../Android_Complete/platform/frameworks/opt/
+mv colorpicker ../../Android_Complete/platform/frameworks/opt/
+mv datetimepicker ../../Android_Complete/platform/frameworks/opt/
+mv emoji ../../Android_Complete/platform/frameworks/opt/
+mv inputconnectioncommon ../../Android_Complete/platform/frameworks/opt/
+mv inputmethodcommon ../../Android_Complete/platform/frameworks/opt/
+mv mailcommon ../../Android_Complete/platform/frameworks/opt/
+mv mms ../../Android_Complete/platform/frameworks/opt/
+mkdir ../../Android_Complete/platform/frameworks/opt/net/
+mv ethernet ../../Android_Complete/platform/frameworks/opt/net/
+mv ims ../../Android_Complete/platform/frameworks/opt/net/
+mv voip ../../Android_Complete/platform/frameworks/opt/net/
+mv wifi ../../Android_Complete/platform/frameworks/opt/net/
+mv photoviewer ../../Android_Complete/platform/frameworks/opt/
+mv setupwizard ../../Android_Complete/platform/frameworks/opt/
+mv telephony ../../Android_Complete/platform/frameworks/opt/
+mv timezonepicker ../../Android_Complete/platform/frameworks/opt/
+mv vcard ../../Android_Complete/platform/frameworks/opt/
+mv widget ../../Android_Complete/platform/frameworks/opt/
+mkdir ../../Android_Complete/platform/frameworks/policies/
+mv base ../../Android_Complete/platform/frameworks/policies/
+mv rs ../../Android_Complete/platform/frameworks/
+mv support ../../Android_Complete/platform/frameworks/
+mv testing ../../Android_Complete/platform/frameworks/
+mv uiautomator ../../Android_Complete/platform/frameworks/
+mv volley ../../Android_Complete/platform/frameworks/
+mv webview ../../Android_Complete/platform/frameworks/
+mv wilhelm ../../Android_Complete/platform/frameworks/
+mv gdk ../../Android_Complete/platform/
+mkdir ../../Android_Complete/platform/hardware/
+mv akm ../../Android_Complete/platform/hardware/
+mkdir ../../Android_Complete/platform/hardware/broadcom/
+mv libbt ../../Android_Complete/platform/hardware/broadcom/
+mv wlan ../../Android_Complete/platform/hardware/broadcom/
+mv google ../../Android_Complete/platform/hardware/
+mkdir ../../Android_Complete/platform/hardware/intel/
+mv audio_media ../../Android_Complete/platform/hardware/intel/
+mv bootstub ../../Android_Complete/platform/hardware/intel/
+mkdir ../../Android_Complete/platform/hardware/intel/common/
+mv bd_prov ../../Android_Complete/platform/hardware/intel/common/
+mv libmix ../../Android_Complete/platform/hardware/intel/common/
+mv libstagefrighthw ../../Android_Complete/platform/hardware/intel/common/
+mv libva ../../Android_Complete/platform/hardware/intel/common/
+mv libwsbm ../../Android_Complete/platform/hardware/intel/common/
+mv omx-components ../../Android_Complete/platform/hardware/intel/common/
+mv utils ../../Android_Complete/platform/hardware/intel/common/
+mv wrs_omxil_core ../../Android_Complete/platform/hardware/intel/common/
+mkdir ../../Android_Complete/platform/hardware/intel/img/
+mv hwcomposer ../../Android_Complete/platform/hardware/intel/img/
+mv libdrm ../../Android_Complete/platform/hardware/intel/img/
+mv psb_headers ../../Android_Complete/platform/hardware/intel/img/
+mv psb_video ../../Android_Complete/platform/hardware/intel/img/
+mv invensense ../../Android_Complete/platform/hardware/
+mv libhardware ../../Android_Complete/platform/hardware/
+mv libhardware_legacy ../../Android_Complete/platform/hardware/
+mv msm7k ../../Android_Complete/platform/hardware/
+mkdir ../../Android_Complete/platform/hardware/nvidia/
+mv audio ../../Android_Complete/platform/hardware/nvidia/
+mv tegra124 ../../Android_Complete/platform/hardware/nvidia/
+mkdir ../../Android_Complete/platform/hardware/qcom/
+mv audio ../../Android_Complete/platform/hardware/qcom/
+mv bt ../../Android_Complete/platform/hardware/qcom/
+mv camera ../../Android_Complete/platform/hardware/qcom/
+mv display ../../Android_Complete/platform/hardware/qcom/
+mv gps ../../Android_Complete/platform/hardware/qcom/
+mv keymaster ../../Android_Complete/platform/hardware/qcom/
+mv media ../../Android_Complete/platform/hardware/qcom/
+mv msm8960 ../../Android_Complete/platform/hardware/qcom/
+mv msm8x26 ../../Android_Complete/platform/hardware/qcom/
+mv msm8x27 ../../Android_Complete/platform/hardware/qcom/
+mv msm8x74 ../../Android_Complete/platform/hardware/qcom/
+mv msm8x84 ../../Android_Complete/platform/hardware/qcom/
+mv power ../../Android_Complete/platform/hardware/qcom/
+mv sensors ../../Android_Complete/platform/hardware/qcom/
+mv wlan ../../Android_Complete/platform/hardware/qcom/
+mv ril ../../Android_Complete/platform/hardware/
+mkdir ../../Android_Complete/platform/hardware/samsung_slsi/
+mv exynos5 ../../Android_Complete/platform/hardware/samsung_slsi/
+mkdir ../../Android_Complete/platform/hardware/ti/
+mv omap3 ../../Android_Complete/platform/hardware/ti/
+mv omap4-aah ../../Android_Complete/platform/hardware/ti/
+mv omap4xxx ../../Android_Complete/platform/hardware/ti/
+mv wlan ../../Android_Complete/platform/hardware/ti/
+mv wpan ../../Android_Complete/platform/hardware/ti/
+mv libcore ../../Android_Complete/platform/
+mv libcore2 ../../Android_Complete/platform/
+mv libcore-snapshot ../../Android_Complete/platform/
+mv libnativehelper ../../Android_Complete/platform/
+mv manifest ../../Android_Complete/platform/
+mv motodev ../../Android_Complete/platform/
+mv ndk ../../Android_Complete/platform/
+mkdir ../../Android_Complete/platform/packages/
+mkdir ../../Android_Complete/platform/packages/apps/
+mv AccountsAndSyncSettings ../../Android_Complete/platform/packages/apps/
+mv AlarmClock ../../Android_Complete/platform/packages/apps/
+mv BasicSmsReceiver ../../Android_Complete/platform/packages/apps/
+mv Bluetooth ../../Android_Complete/platform/packages/apps/
+mv Browser ../../Android_Complete/platform/packages/apps/
+mv Calculator ../../Android_Complete/platform/packages/apps/
+mv Calendar ../../Android_Complete/platform/packages/apps/
+mv Camera ../../Android_Complete/platform/packages/apps/
+mv Camera2 ../../Android_Complete/platform/packages/apps/
+mv CellBroadcastReceiver ../../Android_Complete/platform/packages/apps/
+mv CertInstaller ../../Android_Complete/platform/packages/apps/
+mv Contacts ../../Android_Complete/platform/packages/apps/
+mv ContactsCommon ../../Android_Complete/platform/packages/apps/
+mv DeskClock ../../Android_Complete/platform/packages/apps/
+mv Dialer ../../Android_Complete/platform/packages/apps/
+mv Email ../../Android_Complete/platform/packages/apps/
+mv Exchange ../../Android_Complete/platform/packages/apps/
+mv FMRadio ../../Android_Complete/platform/packages/apps/
+mv Gallery ../../Android_Complete/platform/packages/apps/
+mv Gallery2 ../../Android_Complete/platform/packages/apps/
+mv Gallery3D ../../Android_Complete/platform/packages/apps/
+mv GlobalSearch ../../Android_Complete/platform/packages/apps/
+mv HTMLViewer ../../Android_Complete/platform/packages/apps/
+mv IM ../../Android_Complete/platform/packages/apps/
+mv InCallUI ../../Android_Complete/platform/packages/apps/
+mv KeyChain ../../Android_Complete/platform/packages/apps/
+mv Launcher ../../Android_Complete/platform/packages/apps/
+mv Launcher2 ../../Android_Complete/platform/packages/apps/
+mv Launcher3 ../../Android_Complete/platform/packages/apps/
+mv LegacyCamera ../../Android_Complete/platform/packages/apps/
+mv ManagedProvisioning ../../Android_Complete/platform/packages/apps/
+mv McLauncher ../../Android_Complete/platform/packages/apps/
+mv Mms ../../Android_Complete/platform/packages/apps/
+mv Music ../../Android_Complete/platform/packages/apps/
+mv MusicFX ../../Android_Complete/platform/packages/apps/
+mv Nfc ../../Android_Complete/platform/packages/apps/
+mv OneTimeInitializer ../../Android_Complete/platform/packages/apps/
+mv PackageInstaller ../../Android_Complete/platform/packages/apps/
+mv Phone ../../Android_Complete/platform/packages/apps/
+mv PhoneCommon ../../Android_Complete/platform/packages/apps/
+mv Protips ../../Android_Complete/platform/packages/apps/
+mv Provision ../../Android_Complete/platform/packages/apps/
+mv QuickSearchBox ../../Android_Complete/platform/packages/apps/
+mv Settings ../../Android_Complete/platform/packages/apps/
+mv SmartCardService ../../Android_Complete/platform/packages/apps/
+mv SoundRecorder ../../Android_Complete/platform/packages/apps/
+mv SpareParts ../../Android_Complete/platform/packages/apps/
+mv SpeechRecorder ../../Android_Complete/platform/packages/apps/
+mv Stk ../../Android_Complete/platform/packages/apps/
+mv Sync ../../Android_Complete/platform/packages/apps/
+mv Tag ../../Android_Complete/platform/packages/apps/
+mv Terminal ../../Android_Complete/platform/packages/apps/
+mv TvSettings ../../Android_Complete/platform/packages/apps/
+mv UnifiedEmail ../../Android_Complete/platform/packages/apps/
+mv Updater ../../Android_Complete/platform/packages/apps/
+mv VideoEditor ../../Android_Complete/platform/packages/apps/
+mv VoiceDialer ../../Android_Complete/platform/packages/apps/
+mv experimental ../../Android_Complete/platform/packages/
+mkdir ../../Android_Complete/platform/packages/inputmethods/
+mv LatinIME ../../Android_Complete/platform/packages/inputmethods/
+mv OpenWnn ../../Android_Complete/platform/packages/inputmethods/
+mv PinyinIME ../../Android_Complete/platform/packages/inputmethods/
+mkdir ../../Android_Complete/platform/packages/providers/
+mv ApplicationsProvider ../../Android_Complete/platform/packages/providers/
+mv BookmarkProvider ../../Android_Complete/platform/packages/providers/
+mv CalendarProvider ../../Android_Complete/platform/packages/providers/
+mv ContactsProvider ../../Android_Complete/platform/packages/providers/
+mv DownloadProvider ../../Android_Complete/platform/packages/providers/
+mv DrmProvider ../../Android_Complete/platform/packages/providers/
+mv GoogleContactsProvider ../../Android_Complete/platform/packages/providers/
+mv GoogleSubscribedFeedsProvider ../../Android_Complete/platform/packages/providers/
+mv ImProvider ../../Android_Complete/platform/packages/providers/
+mv ManagementProvider ../../Android_Complete/platform/packages/providers/
+mv MediaProvider ../../Android_Complete/platform/packages/providers/
+mv PartnerBookmarksProvider ../../Android_Complete/platform/packages/providers/
+mv TelephonyProvider ../../Android_Complete/platform/packages/providers/
+mv TvProvider ../../Android_Complete/platform/packages/providers/
+mv UserDictionaryProvider ../../Android_Complete/platform/packages/providers/
+mv WebSearchProvider ../../Android_Complete/platform/packages/providers/
+mkdir ../../Android_Complete/platform/packages/screensavers/
+mv Basic ../../Android_Complete/platform/packages/screensavers/
+mv PhotoTable ../../Android_Complete/platform/packages/screensavers/
+mv WebView ../../Android_Complete/platform/packages/screensavers/
+mkdir ../../Android_Complete/platform/packages/services/
+mv EasService ../../Android_Complete/platform/packages/services/
+mv LockAndWipe ../../Android_Complete/platform/packages/services/
+mv Mms ../../Android_Complete/platform/packages/services/
+mv Telecomm ../../Android_Complete/platform/packages/services/
+mv Telephony ../../Android_Complete/platform/packages/services/
+mkdir ../../Android_Complete/platform/packages/wallpapers/
+mv Basic ../../Android_Complete/platform/packages/wallpapers/
+mv Galaxy4 ../../Android_Complete/platform/packages/wallpapers/
+mv HoloSpiral ../../Android_Complete/platform/packages/wallpapers/
+mv LivePicker ../../Android_Complete/platform/packages/wallpapers/
+mv MagicSmoke ../../Android_Complete/platform/packages/wallpapers/
+mv MusicVisualization ../../Android_Complete/platform/packages/wallpapers/
+mv NoiseField ../../Android_Complete/platform/packages/wallpapers/
+mv PhaseBeam ../../Android_Complete/platform/packages/wallpapers/
+mv pdk ../../Android_Complete/platform/
+mv prebuilt ../../Android_Complete/platform/
+mkdir ../../Android_Complete/platform/prebuilts/
+mv android-emulator ../../Android_Complete/platform/prebuilts/
+mv archive ../../Android_Complete/platform/prebuilts/android-emulator-build/
+mv mesa ../../Android_Complete/platform/prebuilts/android-emulator-build/
+mv mesa-deps ../../Android_Complete/platform/prebuilts/android-emulator-build/
+mv qemu-android-deps ../../Android_Complete/platform/prebuilts/android-emulator-build/
+mkdir ../../Android_Complete/platform/prebuilts/clang/
+mkdir ../../Android_Complete/platform/prebuilts/clang/darwin-x86/
+mv 3.1 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/
+mv 3.2 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/
+mkdir ../../Android_Complete/platform/prebuilts/clang/darwin-x86/arm/
+mv 3.3 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/arm/
+mkdir ../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/
+mv 3.3 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/
+mv 3.4 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/
+mv 3.5 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/
+mv 3.6 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/host/
+mkdir ../../Android_Complete/platform/prebuilts/clang/darwin-x86/mips/
+mv 3.3 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/mips/
+mkdir ../../Android_Complete/platform/prebuilts/clang/darwin-x86/sdk/
+mv 3.5 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/sdk/
+mkdir ../../Android_Complete/platform/prebuilts/clang/darwin-x86/x86/
+mv 3.3 ../../Android_Complete/platform/prebuilts/clang/darwin-x86/x86/
+mkdir ../../Android_Complete/platform/prebuilts/clang/linux-x86/
+mv 3.1 ../../Android_Complete/platform/prebuilts/clang/linux-x86/
+mv 3.2 ../../Android_Complete/platform/prebuilts/clang/linux-x86/
+mkdir ../../Android_Complete/platform/prebuilts/clang/linux-x86/arm/
+mv 3.3 ../../Android_Complete/platform/prebuilts/clang/linux-x86/arm/
+mkdir ../../Android_Complete/platform/prebuilts/clang/linux-x86/host/
+mv 3.3 ../../Android_Complete/platform/prebuilts/clang/linux-x86/host/
+mv 3.4 ../../Android_Complete/platform/prebuilts/clang/linux-x86/host/
+mv 3.5 ../../Android_Complete/platform/prebuilts/clang/linux-x86/host/
+mv 3.6 ../../Android_Complete/platform/prebuilts/clang/linux-x86/host/
+mkdir ../../Android_Complete/platform/prebuilts/clang/linux-x86/mips/
+mv 3.3 ../../Android_Complete/platform/prebuilts/clang/linux-x86/mips/
+mkdir ../../Android_Complete/platform/prebuilts/clang/linux-x86/x86/
+mv 3.3 ../../Android_Complete/platform/prebuilts/clang/linux-x86/x86/
+mv devtools ../../Android_Complete/platform/prebuilts/
+mv eclipse ../../Android_Complete/platform/prebuilts/
+mv eclipse-build-deps ../../Android_Complete/platform/prebuilts/
+mv eclipse-build-deps-sources ../../Android_Complete/platform/prebuilts/
+mkdir ../../Android_Complete/platform/prebuilts/fullsdk
+mkdir ../../Android_Complete/platform/prebuilts/fullsdk/build-tools/
+mv 22-darwin ../../Android_Complete/platform/prebuilts/fullsdk/build-tools/
+mv 22-linux ../../Android_Complete/platform/prebuilts/fullsdk/build-tools/
+mv 22-windows ../../Android_Complete/platform/prebuilts/fullsdk/build-tools/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/aarch64/
+mv aarch64-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/aarch64/
+mv aarch64-linux-android-4.9 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/aarch64/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+mv arm-eabi-4.6 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+mv arm-eabi-4.7 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+mv arm-eabi-4.8 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+mv arm-linux-androideabi-4.6 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+mv arm-linux-androideabi-4.7 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+mv arm-linux-androideabi-4.8 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+mv arm-linux-androideabi-4.9 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/arm/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/host/
+mv headers ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/host/
+mv i686-apple-darwin-4.2.1 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/host/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+mv mips64el-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+mv mips64el-linux-android-4.9 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+mv mipsel-linux-android-4.4.3 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+mv mipsel-linux-android-4.6 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+mv mipsel-linux-android-4.7 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+mv mipsel-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/mips/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+mv i686-android-linux-4.4.3 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+mv i686-android-linux-4.6 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+mv i686-linux-android-4.6 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+mv i686-linux-android-4.7 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+mv x86_64-linux-android-4.7 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+mv x86_64-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+mv x86_64-linux-android-4.9 ../../Android_Complete/platform/prebuilts/gcc/darwin-x86/x86/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/linux-x86/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/linux-x86/aarch64/
+mv aarch64-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/aarch64/
+mv aarch64-linux-android-4.9 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/aarch64/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+mv arm-eabi-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+mv arm-eabi-4.7 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+mv arm-eabi-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+mv arm-linux-androideabi-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+mv arm-linux-androideabi-4.7 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+mv arm-linux-androideabi-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+mv arm-linux-androideabi-4.9 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/arm/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+mv i686-linux-glibc2.7-4.4.3 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+mv i686-linux-glibc2.7-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+mv x86_64-linux-glibc2.11-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+mv x86_64-linux-glibc2.11-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+mv x86_64-linux-glibc2.15-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+mv x86_64-linux-glibc2.7-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+mv x86_64-w64-mingw32-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/host/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+mv mips64el-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+mv mips64el-linux-android-4.9 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+mv mipsel-linux-android-4.4.3 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+mv mipsel-linux-android-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+mv mipsel-linux-android-4.7 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+mv mipsel-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/mips/
+mkdir ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+mv i686-android-linux-4.4.3 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+mv i686-android-linux-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+mv i686-linux-android-4.6 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+mv i686-linux-android-4.7 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+mv x86_64-linux-android-4.7 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+mv x86_64-linux-android-4.8 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+mv x86_64-linux-android-4.9 ../../Android_Complete/platform/prebuilts/gcc/linux-x86/x86/
+mkdir ../../Android_Complete/platform/prebuilts/go/
+mv darwin-x86 ../../Android_Complete/platform/prebuilts/go/
+mv linux-x86 ../../Android_Complete/platform/prebuilts/go/
+mv windows-x86 ../../Android_Complete/platform/prebuilts/go/
+mv gradle-plugin ../../Android_Complete/platform/prebuilts/
+mkdir ../../Android_Complete/platform/prebuilts/libs/
+mv libedit ../../Android_Complete/platform/prebuilts/libs/
+mkdir ../../Android_Complete/platform/prebuilts/maven_repo/
+mv android ../../Android_Complete/platform/prebuilts/maven_repo/
+mv misc ../../Android_Complete/platform/prebuilts/
+mv ndk ../../Android_Complete/platform/prebuilts/
+mkdir ../../Android_Complete/platform/prebuilts/ninja/
+mv darwin-x86 ../../Android_Complete/platform/prebuilts/ninja/
+mv linux-x86 ../../Android_Complete/platform/prebuilts/ninja/
+mkdir ../../Android_Complete/platform/prebuilts/python/
+mkdir ../../Android_Complete/platform/prebuilts/python/darwin-x86/
+mv 2.7.5 ../../Android_Complete/platform/prebuilts/python/darwin-x86/
+mkdir ../../Android_Complete/platform/prebuilts/python/linux-x86/
+mv 2.7.5 ../../Android_Complete/platform/prebuilts/python/linux-x86/
+mv qemu-kernel ../../Android_Complete/platform/prebuilts/
+mv runtime ../../Android_Complete/platform/prebuilts/
+mv sdk ../../Android_Complete/platform/prebuilts/
+mv tools ../../Android_Complete/platform/prebuilts/
+mv sdk ../../Android_Complete/platform/
+mkdir ../../Android_Complete/platform/system/
+mv bluetooth ../../Android_Complete/platform/system/
+mv bt ../../Android_Complete/platform/system/
+mv core ../../Android_Complete/platform/system/
+mv extras ../../Android_Complete/platform/system/
+mv gatekeeper ../../Android_Complete/platform/system/
+mv keyguard ../../Android_Complete/platform/system/
+mv keymaster ../../Android_Complete/platform/system/
+mv media ../../Android_Complete/platform/system/
+mv netd ../../Android_Complete/platform/system/
+mv security ../../Android_Complete/platform/system/
+mv vold ../../Android_Complete/platform/system/
+mkdir ../../Android_Complete/platform/system/wlan/
+mv ti ../../Android_Complete/platform/system/wlan/
+mkdir ../../Android_Complete/platform/tools/
+mkdir ../../Android_Complete/platform/tools/adt/
+mv eclipse ../../Android_Complete/platform/tools/adt/
+mv idea ../../Android_Complete/platform/tools/adt/
+mv base ../../Android_Complete/platform/tools/
+mv build ../../Android_Complete/platform/tools/
+mv buildSrc ../../Android_Complete/platform/tools/
+mv emulator ../../Android_Complete/platform/tools/
+mkdir ../../Android_Complete/platform/tools/external/
+mv fat32lib ../../Android_Complete/platform/tools/external/
+mkdir ../../Android_Complete/platform/tools/external/go/
+mkdir ../../Android_Complete/platform/tools/external/go/src
+mkdir ../../Android_Complete/platform/tools/external/go/src/github.com/
+mkdir ../../Android_Complete/platform/tools/external/go/src/github.com/go-gl/
+mv glfw ../../Android_Complete/platform/tools/external/go/src/github.com/go-gl/
+mkdir ../../Android_Complete/platform/tools/external/go/src/github.com/go-gl-legacy/
+mv gl ../../Android_Complete/platform/tools/external/go/src/github.com/go-gl-legacy/
+mkdir ../../Android_Complete/platform/tools/external/go/src/github.com/golang/
+mv protobuf ../../Android_Complete/platform/tools/external/go/src/github.com/golang/
+mkdir ../../Android_Complete/platform/tools/external/go/src/golang.org/
+mkdir ../../Android_Complete/platform/tools/external/go/src/golang.org/x/
+mv net ../../Android_Complete/platform/tools/external/go/src/golang.org/x/
+mv tools ../../Android_Complete/platform/tools/external/go/src/golang.org/x/
+mv gradle ../../Android_Complete/platform/tools/external/
+mv gpu ../../Android_Complete/platform/tools/
+mv gradle ../../Android_Complete/platform/tools/
+mv idea ../../Android_Complete/platform/tools/
+mv loganalysis ../../Android_Complete/platform/tools/
+mv motodev ../../Android_Complete/platform/tools/
+mkdir ../../Android_Complete/platform/tools/studio/
+mv cloud ../../Android_Complete/platform/tools/studio/
+mkdir ../../Android_Complete/platform/tools/studio/google/
+mkdir ../../Android_Complete/platform/tools/studio/google/cloud/
+mv testing ../../Android_Complete/platform/tools/studio/google/cloud/
+mv tools ../../Android_Complete/platform/tools/studio/google/cloud/
+mv login ../../Android_Complete/platform/tools/studio/google/
+mv play ../../Android_Complete/platform/tools/studio/google/
+mv translation ../../Android_Complete/platform/tools/studio/
+mv swt ../../Android_Complete/platform/tools/
+mv tradefederation ../../Android_Complete/platform/tools/
+mkdir ../../Android_Complete/platform/vendor/
+mkdir ../../Android_Complete/platform/vendor/htc/
+mv dream-open ../../Android_Complete/platform/vendor/htc/
+mv invensense ../../Android_Complete/platform/vendor/
+mv sample ../../Android_Complete/platform/vendor/
+mv Platform-Chromium-Projects ../../Android_Complete/
+mv Platform-Projects ../../Android_Complete/
+mv Platform-Unrestricted-Projects ../../Android_Complete/
+mv Public-Projects ../../Android_Complete/
+mkdir ../../Android_Complete/toolchain/
+mv avr-libc ../../Android_Complete/toolchain/
+mv benchmark ../../Android_Complete/toolchain/
+mv binutils ../../Android_Complete/toolchain/
+mv build ../../Android_Complete/toolchain/
+mv ccache ../../Android_Complete/toolchain/
+mv clang ../../Android_Complete/toolchain/
+mv cloog ../../Android_Complete/toolchain/
+mv compiler-rt ../../Android_Complete/toolchain/
+mv expat ../../Android_Complete/toolchain/
+mv gcc ../../Android_Complete/toolchain/
+mv gdb ../../Android_Complete/toolchain/
+mv gmp ../../Android_Complete/toolchain/
+mv gold ../../Android_Complete/toolchain/
+mv isl ../../Android_Complete/toolchain/
+mv jack ../../Android_Complete/toolchain/
+mv jill ../../Android_Complete/toolchain/
+mv llvm ../../Android_Complete/toolchain/
+mv manifest ../../Android_Complete/toolchain/
+mv mclinker ../../Android_Complete/toolchain/
+mv mpc ../../Android_Complete/toolchain/
+mv mpfr ../../Android_Complete/toolchain/
+mv perl ../../Android_Complete/toolchain/
+mv polly ../../Android_Complete/toolchain/
+mv ppl ../../Android_Complete/toolchain/
+mv python ../../Android_Complete/toolchain/
+mv valgrind ../../Android_Complete/toolchain/
+mv yasm ../../Android_Complete/toolchain/
+mkdir ../../Android_Complete/tools/
+mv aospstats ../../Android_Complete/tools/
+mv repo ../../Android_Complete/tools/
