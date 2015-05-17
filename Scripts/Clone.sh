@@ -1,61 +1,61 @@
-#git clone https://android.googlesource.com/accessories/manifest
+git clone https://android.googlesource.com/accessories/manifest
 mkdir ../../Android_Complete
 mkdir ../../Android_Complete/accessories
 mv manifest ../../Android_Complete/accessories
 mkdir ../../Android_Complete/device
 mkdir ../../Android_Complete/device/generic
 mkdir ../../Android_Complete/device/asus
-#git clone https://android.googlesource.com/device/asus/deb
+git clone https://android.googlesource.com/device/asus/deb
 mv deb ../../Android_Complete/device/asus
-#git clone https://android.googlesource.com/device/asus/flo
+git clone https://android.googlesource.com/device/asus/flo
 mv flo ../../Android_Complete/device/asus
-#git clone https://android.googlesource.com/device/asus/flo-kernel
+git clone https://android.googlesource.com/device/asus/flo-kernel
 mv flo-kernel ../../Android_Complete/device/asus
-#git clone https://android.googlesource.com/device/asus/fugu
+git clone https://android.googlesource.com/device/asus/fugu
 mv fugu ../../Android_Complete/device/asus
-#git clone https://android.googlesource.com/device/asus/fugu-kernel
+git clone https://android.googlesource.com/device/asus/fugu-kernel
 mv fugu-kernel ../../Android_Complete/device/asus
-#git clone https://android.googlesource.com/device/asus/grouper
+git clone https://android.googlesource.com/device/asus/grouper
 mv grouper ../../Android_Complete/device/asus
-#git clone https://android.googlesource.com/device/asus/tilapia
+git clone https://android.googlesource.com/device/asus/tilapia
 mv tilapia ../../Android_Complete/device/asus
-#git clone https://android.googlesource.com/device/common
+git clone https://android.googlesource.com/device/common
 mv common ../../Android_Complete/device/
-#git clone https://android.googlesource.com/device/generic/arm64
+git clone https://android.googlesource.com/device/generic/arm64
 mv arm64 ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/armv7-a
+git clone https://android.googlesource.com/device/generic/armv7-a
 mv armv7-a ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/armv7-a-neon
+git clone https://android.googlesource.com/device/generic/armv7-a-neon
 mv armv7-a-neon ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/art
+git clone https://android.googlesource.com/device/generic/art
 mv art ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/common
+git clone https://android.googlesource.com/device/generic/common
 mv common ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/goldfish
+git clone https://android.googlesource.com/device/generic/goldfish
 mv goldfish ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/mini-emulator-arm64
+git clone https://android.googlesource.com/device/generic/mini-emulator-arm64
 mv mini-emulator-arm64 ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/mini-emulator-armv7-a-neon
+git clone https://android.googlesource.com/device/generic/mini-emulator-armv7-a-neon
 mv mini-emulator-armv7-a-neon ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/mini-emulator-mips
+git clone https://android.googlesource.com/device/generic/mini-emulator-mips
 mv mini-emulator-mips ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/mini-emulator-x86
+git clone https://android.googlesource.com/device/generic/mini-emulator-x86
 mv mini-emulator-x86 ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/mini-emulator-x86_64
+git clone https://android.googlesource.com/device/generic/mini-emulator-x86_64
 mv mini-emulator-x86_64 ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/mips
+git clone https://android.googlesource.com/device/generic/mips
 mv mips ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/qemu
+git clone https://android.googlesource.com/device/generic/qemu
 mv qemu ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/x86
+git clone https://android.googlesource.com/device/generic/x86
 mv x86 ../../Android_Complete/device/generic/
-#git clone https://android.googlesource.com/device/generic/x86_64
+git clone https://android.googlesource.com/device/generic/x86_64
 mv x86_64 ../../Android_Complete/device/generic/
 mkdir ../../Android_Complete/device/google/
 mkdir ../../Android_Complete/device/google/accessory
-#git clone https://android.googlesource.com/device/google/accessory/adk2012
+git clone https://android.googlesource.com/device/google/accessory/adk2012
 mv adk2012 ../../Android_Complete/device/google/accessory/
-#git clone https://android.googlesource.com/device/google/accessory/adk2012_demo
+git clone https://android.googlesource.com/device/google/accessory/adk2012_demo
 mv adk2012_demo ../../Android_Complete/device/google/accessory/
 mv arduino ../../Android_Complete/device/google/accessory/
 mv demokit ../../Android_Complete/device/google/accessory/
