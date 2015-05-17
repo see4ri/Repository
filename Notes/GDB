@@ -81,7 +81,29 @@ $ gdb -help
 *******************************************************************************
 3. Running Programs Under gdb
 *******************************************************************************
-
+4.1 Compiling for Debugging . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . .
+4.2 Starting your Program . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .
+4.3 Your Program’s Arguments . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . .
+4.4 Your Program’s Environment. . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . .
+4.5 Your Program’s Working Directory . . . . . . . . . . . . . . . . .
+. . . . . . . . . . .
+4.6 Your Program’s Input and Output . . . . . . . . . . . . . . . . .
+. . . . . . . . . . .
+4.7 Debugging an Already-running Process . . . . . . . . . . . . . . .
+. . . . . . . . .
+4.8 Killing the Child Process . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . .
+4.9 Debugging Multiple Inferiors and Programs. . . . . . . . . . . . .
+. . . . . . .
+4.10 Debugging Programs with Multiple Threads . . . . . . . . . . . .
+. . . . . .
+3.11 Debugging Forks . . . . . . . . . . . . . . . . . . . . . . . . .
+3.12 Setting a Bookmark to Return to Later. . . . . . . . . . . . . .
+3.12.1 A Non-obvious Benefit of Using Checkpoints
 
 *******************************************************************************
 4. Stopping and Continuing
