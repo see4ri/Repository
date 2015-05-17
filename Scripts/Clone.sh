@@ -57,16 +57,26 @@ git clone https://android.googlesource.com/device/google/accessory/adk2012
 mv adk2012 ../../Android_Complete/device/google/accessory/
 git clone https://android.googlesource.com/device/google/accessory/adk2012_demo
 mv adk2012_demo ../../Android_Complete/device/google/accessory/
+git clone https://android.googlesource.com/device/google/accessory/arduino
 mv arduino ../../Android_Complete/device/google/accessory/
+git clone https://android.googlesource.com/device/google/accessory/demokit
 mv demokit ../../Android_Complete/device/google/accessory/
+git clone https://android.googlesource.com/device/google/atv
 mv atv ../../Android_Complete/device/google/
+git clone https://android.googlesource.com/device/google/debugcable
 mv debugcable ../../Android_Complete/device/google/
+git clone https://android.googlesource.com/device/google/phantasm
 mv phantasm ../../Android_Complete/device/google/
 mkdir ../../Android_Complete/device/htc/
+git clone https://android.googlesource.com/device/htc/common
 mv common ../../Android_Complete/device/htc/
+git clone https://android.googlesource.com/device/htc/dream
 mv dream ../../Android_Complete/device/htc/
+git clone https://android.googlesource.com/device/htc/dream-sapphire
 mv dream-sapphire ../../Android_Complete/device/htc/
+git clone https://android.googlesource.com/device/htc/flounder	
 mv flounder ../../Android_Complete/device/htc/
+git clone https://android.googlesource.com/device/htc/flounder-kernel
 mv flounder-kernel ../../Android_Complete/device/htc/
 mv passion ../../Android_Complete/device/htc/
 mv passion-common ../../Android_Complete/device/htc/
