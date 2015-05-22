@@ -15,3 +15,9 @@ $ passwd
 
 4. How to install *.bundle file
 $ sudo sh *filename*.bundle
+
+5. To send a email through shell script
+echo 'Message body goes here' | mail -s 'subject line goes here' rangarajan.rajendiran@arris.com
+
+6. To send a email through shell script with attachment
+
