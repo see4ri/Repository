@@ -1,7 +1,7 @@
 # Makefile for the Car Parking Project
 CFLAGS = -Wall -g -c
-SRC = SRC
-INC = Include
+SRC = src
+INC = inc
 CC = cc -pthread
 
 all : Main EntrySystem ExitSystem
@@ -11,14 +11,14 @@ EntrySystem : EntrySystem.o
 ExitSystem : ExitSystem.o
 
 Main.o : $(SRC)/Main.c $(INC)/Main.h
-  $(CC) $(CFLAGS) $(SRC)/Main.c
+	$(CC) $(CFLAGS) $(SRC)/Main.c
   
 EntrySystem.o : $(SRC)/EntrySystem.c $(INC)/EntrySystem.h
-  $(CC) $(CFLAGS) $(SRC)/EntrySystem.c
+	$(CC) $(CFLAGS) $(SRC)/EntrySystem.c
   
 ExitSystem.o : $(SRC)/ExitSystem.c $(INC)/ExitSystem.h
-  $(CC) $(CFLAGS) $(SRC)/ExitSystem.c
+	$(CC) $(CFLAGS) $(SRC)/ExitSystem.c
   
 .PHONY: clean
 clean :
-  rm -f *.o Main EntrySystem ExitSystem
+	rm -f *.o Main EntrySystem ExitSystem
