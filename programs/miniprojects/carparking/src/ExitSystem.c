@@ -3,6 +3,8 @@
 
 int main (int argc,char* argv[]) {
 
+    printf("Inside exit system process \n");
+
     return 0;
 }
 
