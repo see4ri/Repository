@@ -107,12 +107,75 @@ in the desired application areas :
 *******************************************************************************
                       4. Types and Declartions
 *******************************************************************************
+4.1 Types
+4.2 Booleans
+4.3 Character Types
+4.4 Integer Types
+4.5 Floating-Point Types
+4.6 Sizes
+4.7 Void 
+4.8 Enumerations
+4.9 Declarations
 
+4.1 Types
+4.1.1 Fundamental Types
 
+4.2 Booleans
+
+4.3 Character Types
+4.3.1 Character Literals
+
+4.4 Integer Types
+4.4.1 Integer Literals
+
+4.5 Floating-Point Types
+4.5.1 Floating-Point Literals
+
+4.6 Sizes
+
+4.7 Void 
+
+4.8 Enumerations
+
+4.9 Declarations
+4.9.1 The Structure of a Declaration
+4.9.2 Declaring Multiple Names
+4.9.3 Names
+4.9.4 Scope
+4.9.5 Initialization
+4.9.6 Objects and Lvalues
 
 *******************************************************************************
                    5. Pointers, Arrays and Structures
 *******************************************************************************
+5.1 Pointers
+5.2 Arrays
+5.3 Pointers into Arrays
+5.4 Constants
+5.5 References
+5.6 Pointer to Void
+5.7 Structures
+
+
+5.1 Pointers
+5.1.1 Zero
+
+5.2 Arrays
+5.2.1 Array Initializers
+5.2.2 String Literals
+
+5.3 Pointers into Arrays
+5.3.1 Navigating Arrays
+
+5.4 Constants
+5.4.1 Pointers and Constants
+
+5.5 References
+
+5.6 Pointer to Void
+
+5.7 Structures
+5.7.1 Type Equivalence
 
 
 *******************************************************************************
