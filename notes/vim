@@ -37,7 +37,7 @@ h(left), j(down), k(up), l(right)
 11. Insert char at end of the line
 # a
 
-12. Delete a line
+12. Delete or cut a line
 # dd
 
 13. Opening up a new line
@@ -51,6 +51,15 @@ h(left), j(down), k(up), l(right)
 for any topic for help type
 : help <topic>
 
+16. copy a line 
+yy
+
+17. paste a line
+p - to paste after the cursor
+P - to paste before the cursor
+
+18. to copy multiple lines
+mk 
 *******************************************************************************
 2. Editing a little faster
 *******************************************************************************
