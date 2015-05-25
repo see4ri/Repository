@@ -17,9 +17,9 @@ struct Data {
 
 int main (int argc,char* argv[]) {
     pthread_t thread_id1, thread_id2, thread_id3;
-    time_t timer;
+    time_t clk = time(NULL);
 
-    printf(" Current timing of the process is %s \n",asctime(localtime(&timer)));
+    printf(" Current timing of the process is %s \n",ctime(&clk));
 
     printf("Inside Entry system process \n");
 
