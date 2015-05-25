@@ -304,12 +304,66 @@ $ gdb -help
 *******************************************************************************
 14. Debugging Programs That Use Overlays
 *******************************************************************************
+14.1 How Overlays Work
+14.2 Overlay Commands
+14.3 Automatic Overlay Debugging
+14.4 Overlay Sample Program
+
+
+14.1 How Overlays Work
+14.2 Overlay Commands
+14.3 Automatic Overlay Debugging
+14.4 Overlay Sample Program
 
 
 *******************************************************************************
 15. Using gdb with Different Languages
 *******************************************************************************
-
+15.1 Switching Between Source Languages
+15.1.1 List of Filename Extensions and Languages
+15.1.2 Setting the Working Language
+15.1.3 Having gdb Infer the Source Language
+15.2 Displaying the Language
+15.3 Type and Range Checking
+15.3.1 An Overview of Type Checking
+15.3.2 An Overview of Range Checking
+15.4 Supported Languages
+15.4.1 C and C++
+15.4.1.1 C and C++ Operators
+15.4.1.2 C and C++ Constants
+15.4.1.3 C++ Expressions
+15.4.1.4 C and C++ Defaults
+15.4.1.5 C and C++ Type and Range Checks
+15.4.1.6 gdb and C
+15.4.1.7 gdb Features for C++
+15.4.1.8 Decimal Floating Point format
+15.4.2 Objective-C
+15.4.2.1 Method Names in Commands
+15.4.2.2 The Print Command With Objective-C
+15.4.3 Fortran
+15.4.3.1 Fortran Operators and Expressions
+15.4.3.2 Fortran Defaults
+15.4.3.3 Special Fortran Commands
+15.4.4 Pascal
+15.4.5 Modula-2
+15.4.5.1 Operators
+15.4.5.2 Built-in Functions and Procedures
+15.4.5.3 Constants
+15.4.5.4 Modula-2 Types
+15.4.5.5 Modula-2 Defaults
+15.4.5.6 Deviations from Standard Modula-2
+15.4.5.7 Modula-2 Type and Range Checks
+15.4.5.8 The Scope Operators :: and . 
+15.4.5.9 gdb and Modula-2
+15.4.6 Ada
+15.4.6.1 Introduction
+15.4.6.2 Omissions from Ada
+15.4.6.3 Additions to Ada
+15.4.6.4 Stopping at the Very Beginning
+15.4.6.5 Extensions for Ada Tasks : : : : : : : : : : : : : : : : : : : : : : : : : 169
+15.4.6.6 Tasking Support when Debugging Core Files : : : : : : 172
+15.4.6.7 Known Peculiarities of Ada Mode : : : : : : : : : : : : : : : : : 172
+15.5 Unsupported Languages : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 173
 
 *******************************************************************************
 16. Examining the Symbol Table
