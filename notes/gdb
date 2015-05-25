@@ -47,7 +47,7 @@ $ gdb --tui pointer
 
 --> q - Quits gdb
 *******************************************************************************
-1. Getting In and Out of Gdb
+2. Getting In and Out of Gdb
 *******************************************************************************
 1. start gdb 
 $ gdb
@@ -72,196 +72,347 @@ $ gdb --arg <program> <arguments>
 $ gdb -help
 
 *******************************************************************************
-2. gdb Commands
-*******************************************************************************
-
-
-
-
-*******************************************************************************
-3. Running Programs Under gdb
-*******************************************************************************
-4.1 Compiling for Debugging . . . . . . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . . . . .
-4.2 Starting your Program . . . . . . . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . . . . . .
-4.3 Your Program’s Arguments . . . . . . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . .
-4.4 Your Program’s Environment. . . . . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . .
-4.5 Your Program’s Working Directory . . . . . . . . . . . . . . . . .
-. . . . . . . . . . .
-4.6 Your Program’s Input and Output . . . . . . . . . . . . . . . . .
-. . . . . . . . . . .
-4.7 Debugging an Already-running Process . . . . . . . . . . . . . . .
-. . . . . . . . .
-4.8 Killing the Child Process . . . . . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . . . . . .
-4.9 Debugging Multiple Inferiors and Programs. . . . . . . . . . . . .
-. . . . . . .
-4.10 Debugging Programs with Multiple Threads . . . . . . . . . . . .
-. . . . . .
-3.11 Debugging Forks . . . . . . . . . . . . . . . . . . . . . . . . .
-3.12 Setting a Bookmark to Return to Later. . . . . . . . . . . . . .
-3.12.1 A Non-obvious Benefit of Using Checkpoints
-
-*******************************************************************************
-4. Stopping and Continuing
-*******************************************************************************
-
-
-*******************************************************************************
-5. Running programs backward
-*******************************************************************************
+3. gdb Commands
+*******************************************************************************
+3.1 Command Syntax 
+3.2 Command Completion
+3.3 Getting Help
+
+3.1 Command Syntax 
+3.2 Command Completion
+3.3 Getting Help
+
+*******************************************************************************
+4. Running Programs Under gdb
+*******************************************************************************
+4.1 Compiling for Debugging
+4.2 Starting your Program
+4.3 Your Program’s Arguments
+4.4 Your Program’s Environment
+4.5 Your Program’s Working Directory
+4.6 Your Program’s Input and Output
+4.7 Debugging an Already-running Process
+4.8 Killing the Child Process
+4.9 Debugging Multiple Inferiors and Programs
+4.10 Debugging Programs with Multiple Threads
+4.11 Debugging Forks 
+4.12 Setting a Bookmark to Return to Later
+4.12.1 A Non-obvious Benefit of Using Checkpoints
+
+4.1 Compiling for Debugging
+4.2 Starting your Program
+4.3 Your Program’s Arguments
+4.4 Your Program’s Environment
+4.5 Your Program’s Working Directory
+4.6 Your Program’s Input and Output
+4.7 Debugging an Already-running Process
+4.8 Killing the Child Process
+4.9 Debugging Multiple Inferiors and Programs
+4.10 Debugging Programs with Multiple Threads
+4.11 Debugging Forks 
+4.12 Setting a Bookmark to Return to Later
+4.12.1 A Non-obvious Benefit of Using Checkpoints
+
+*******************************************************************************
+5. Stopping and Continuing
+*******************************************************************************
+5.1 Breakpoints, Watchpoints, and Catchpoints
+5.1.1 Setting Breakpoints
+5.1.2 Setting Watchpoints
+5.1.3 Setting Catchpoints
+5.1.4 Deleting Breakpoints
+5.1.5 Disabling Breakpoints
+5.1.6 Break Conditions
+5.1.7 Breakpoint Command Lists
+5.1.8 “Cannot insert breakpoints”
+5.1.9 “Breakpoint address adjusted...”
+5.2 Continuing and Stepping
+5.3 Signals
+5.4 Stopping and Starting Multi-thread Programs
+5.4.1 All-Stop Mode
+5.4.2 Non-Stop Mode
+5.4.3 Background Execution
+5.4.4 Thread-Specific Breakpoints
+5.4.5 Interrupted System Calls
+
+5.1 Breakpoints, Watchpoints, and Catchpoints
+5.1.1 Setting Breakpoints
+5.1.2 Setting Watchpoints
+5.1.3 Setting Catchpoints
+5.1.4 Deleting Breakpoints
+5.1.5 Disabling Breakpoints
+5.1.6 Break Conditions
+5.1.7 Breakpoint Command Lists
+5.1.8 “Cannot insert breakpoints”
+5.1.9 “Breakpoint address adjusted...”
+5.2 Continuing and Stepping
+5.3 Signals
+5.4 Stopping and Starting Multi-thread Programs
+5.4.1 All-Stop Mode
+5.4.2 Non-Stop Mode
+5.4.3 Background Execution
+5.4.4 Thread-Specific Breakpoints
+5.4.5 Interrupted System Calls
+
+*******************************************************************************
+6. Running programs backward
+*******************************************************************************
+
+
+*******************************************************************************
+7. Recording Inferior’s Execution and Replaying It
+*******************************************************************************
+
+
+*******************************************************************************
+8. Examining the Stack
+*******************************************************************************
+8.1 Stack Frames
+8.2 Backtraces
+8.3 Selecting a Frame
+8.4 Information About a Frame
+
+8.1 Stack Frames
+8.2 Backtraces
+8.3 Selecting a Frame
+8.4 Information About a Frame
+
+*******************************************************************************
+9. Examining Source Files
+*******************************************************************************
+9.1 Printing Source Lines
+9.2 Specifying a Location
+9.3 Editing Source Files
+9.3.1 Choosing your Editor
+9.4 Searching Source Files
+9.5 Specifying Source Directories
+9.6 Source and Machine Code
+
+
+9.1 Printing Source Lines
+9.2 Specifying a Location
+9.3 Editing Source Files
+9.3.1 Choosing your Editor
+9.4 Searching Source Files
+9.5 Specifying Source Directories
+9.6 Source and Machine Code
+
+*******************************************************************************
+10. Examining Data
+*******************************************************************************
+10.1 Expressions
+10.2 Ambiguous Expressions
+10.3 Program Variables
+10.4 Artificial Arrays
+10.5 Output Formats
+10.6 Examining Memory
+10.7 Automatic Display
+10.8 Print Settings
+10.9 Value History
+10.10 Convenience Variables
+10.11 Registers
+10.12 Floating Point Hardware
+10.13 Vector Unit
+10.14 Operating System Auxiliary Information
+10.15 Memory Region Attributes
+10.15.1 Attributes
+10.15.1.1 Memory Access Mode
+10.15.1.2 Memory Access Size
+10.15.1.3 Data Cache
+10.15.2 Memory Access Checking
+10.16 Copy Between Memory and a File
+10.17 How to Produce a Core File from Your Program
+10.18 Character Sets
+10.19 Caching Data of Remote Targets
+10.20 Search Memory
 
 
-*******************************************************************************
-6. Recording Inferior’s Execution and Replaying It
-*******************************************************************************
-
-
-*******************************************************************************
-7. Examining the Stack
-*******************************************************************************
-
+10.1 Expressions
+10.2 Ambiguous Expressions
+10.3 Program Variables
+10.4 Artificial Arrays
+10.5 Output Formats
+10.6 Examining Memory
+10.7 Automatic Display
+10.8 Print Settings
+10.9 Value History
+10.10 Convenience Variables
+10.11 Registers
+10.12 Floating Point Hardware
+10.13 Vector Unit
+10.14 Operating System Auxiliary Information
+10.15 Memory Region Attributes
+10.15.1 Attributes
+10.15.1.1 Memory Access Mode
+10.15.1.2 Memory Access Size
+10.15.1.3 Data Cache
+10.15.2 Memory Access Checking
+10.16 Copy Between Memory and a File
+10.17 How to Produce a Core File from Your Program
+10.18 Character Sets
+10.19 Caching Data of Remote Targets
+10.20 Search Memory
 
 *******************************************************************************
-8. Examining Source Files
+11. Debugging Optimized Code
 *******************************************************************************
+11.1 Inline Functions
 
+11.1 Inline Functions
 
 *******************************************************************************
-9. Examining Data
+12. C Preprocessor Macros
 *******************************************************************************
 
 
 *******************************************************************************
-10. Debugging Optimized Code
+13. Tracepoints
 *******************************************************************************
+13.1 Commands to Set Tracepoints
+13.1.1 Create and Delete Tracepoints
+13.1.2 Enable and Disable Tracepoints
+13.1.3 Tracepoint Passcounts
+13.1.4 Tracepoint Conditions
+13.1.5 Trace State Variables
+13.1.6 Tracepoint Action Lists
+13.1.7 Listing Tracepoints
+13.1.8 Starting and Stopping Trace Experiments
+13.2 Using the Collected Data
+13.2.1 tfind n
+13.2.2 tdump
+13.2.3 save-tracepoints filename
+13.3 Convenience Variables for Tracepoints
+13.4 Using Trace Files
 
-
-*******************************************************************************
-11. C Preprocessor Macros
-*******************************************************************************
-
-
-*******************************************************************************
-12. Tracepoints
-*******************************************************************************
 
+13.1 Commands to Set Tracepoints
+13.1.1 Create and Delete Tracepoints
+13.1.2 Enable and Disable Tracepoints
+13.1.3 Tracepoint Passcounts
+13.1.4 Tracepoint Conditions
+13.1.5 Trace State Variables
+13.1.6 Tracepoint Action Lists
+13.1.7 Listing Tracepoints
+13.1.8 Starting and Stopping Trace Experiments
+13.2 Using the Collected Data
+13.2.1 tfind n
+13.2.2 tdump
+13.2.3 save-tracepoints filename
+13.3 Convenience Variables for Tracepoints
+13.4 Using Trace Files
 
 *******************************************************************************
-13. Debugging Programs That Use Overlays
+14. Debugging Programs That Use Overlays
 *******************************************************************************
 
 
 *******************************************************************************
-14. Using gdb with Different Languages
+15. Using gdb with Different Languages
 *******************************************************************************
 
 
 *******************************************************************************
-15. Examining the Symbol Table
+16. Examining the Symbol Table
 *******************************************************************************
 
 
 *******************************************************************************
-16. Altering Execution
+17. Altering Execution
 *******************************************************************************
 
 
 *******************************************************************************
-17. gdb Files
+18. gdb Files
 *******************************************************************************
 
 *******************************************************************************
-18. Specifying a Debugging Target
+19. Specifying a Debugging Target
 *******************************************************************************
 
 
 *******************************************************************************
-19. Debugging Remote Programs
+20. Debugging Remote Programs
 *******************************************************************************
 
 
 *******************************************************************************
-20. Configuration-Specific Information
+21. Configuration-Specific Information
 *******************************************************************************
 
 
 *******************************************************************************
-21. Controlling gdb
+22. Controlling gdb
 *******************************************************************************
 
 
 
 *******************************************************************************
-22. Extending gdb
+23. Extending gdb
 *******************************************************************************
 
 
 *******************************************************************************
-23. Command Interpreters
+24. Command Interpreters
 *******************************************************************************
 
 
 
 *******************************************************************************
-24. gdb Text User Interface
+25. gdb Text User Interface
 *******************************************************************************
 
 
 *******************************************************************************
-25. Using gdb under gnu Emacs
+26. Using gdb under gnu Emacs
 *******************************************************************************
 
 
 
 *******************************************************************************
-26. The gdb/mi Interface
+27. The gdb/mi Interface
 *******************************************************************************
 
 
 
 *******************************************************************************
-27. gdb Annotations
+28. gdb Annotations
 *******************************************************************************
 
 
 
 *******************************************************************************
-28. JIT Compilation Interface
+29. JIT Compilation Interface
 *******************************************************************************
 
 
 *******************************************************************************
-29. Reporting Bugs in gdb
+30. Reporting Bugs in gdb
 *******************************************************************************
 
 
 *******************************************************************************
-30. Command Line Editing
+31. Command Line Editing
 *******************************************************************************
 
 
 *******************************************************************************
-31. Using History Interactively
+32. Using History Interactively
 *******************************************************************************
 
 
 
 *******************************************************************************
-32. Formatting Documentation
+33. Formatting Documentation
 *******************************************************************************
 
 
 *******************************************************************************
-33. Installing gdb
+34. Installing gdb
 *******************************************************************************
 
 
 *******************************************************************************
-34. Maintenance Commands
+35. Maintenance Commands
 *******************************************************************************
 
 
