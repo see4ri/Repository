@@ -21,3 +21,7 @@ echo 'Message body goes here' | mail -s 'subject line goes here' rangarajan.raje
 
 6. To send a email through shell script with attachment
 
+7. How to change the mouse setting to basic in ubuntu
+sudo nano /etc/default/grub
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash psmouse.proto=bare"
+sudo update-grub
